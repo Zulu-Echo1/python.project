@@ -1,0 +1,3757 @@
+SHOW CREATE TABLE flights;
+
+
+
+
+
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-01', 'DL', '380', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '392', 'DCA', 'LAX', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '410', 'DCA', 'ATL', 'early [3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '455', 'DCA', 'ATL', 'early [6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '467', 'DCA', 'MSP', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '553', 'DCA', 'SLC', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '759', 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '959', 'DCA', 'ATL', 'early [2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '1165', 'DCA', 'MSP', 'early [5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '1435', 'DCA', 'DTW', 'early[7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '1608', 'DCA', 'ATL', 'early [11]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '2280', 'DCA', 'MSP', 'early[6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-01', 'DL', '2309', 'DCA', 'MIA', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '2475', 'DCA', 'DTW', 'early[12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '2476', 'DCA', 'DTW', 'early[10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-01', 'DL', '2953', 'DCA', 'MCO', 'early[7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '380', 'DCA', 'ATL', 'Delayed [70]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '392', 'DCA', 'LAX', 'Delayed [2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '410', 'DCA', 'ATL', 'Delayed [40]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '455', 'DCA', 'ATL', 'early[5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '467', 'DCA', 'MSP', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '553', 'DCA', 'SLC', 'early[2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '654', 'DCA', 'ATL', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '737', 'DCA', 'ATL', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '759', 'DCA', 'ATL', 'early[1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '959', 'DCA', 'ATL', 'early[3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '1085', 'DCA', 'DTW', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '1165', 'DCA', 'MSP', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '1201', 'DCA', 'ATL', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '1435', 'DCA', 'DTW', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '1608', 'DCA', 'ATL', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '1740', 'DCA', 'MSP', 'early[8]');
+
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-02', 'DL', '2280', 'DCA', 'MSP', 'early[1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '2309', 'DCA', 'MIA', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '2475', 'DCA', 'DTW', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '2476', 'DCA', 'DTW', 'Delayed [2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '2698', 'DCA', 'MSP', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-02', 'DL', '2953', 'DCA', 'MCO', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '380', 'DCA', 'ATL', 'early[2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE  ('2024-01-03', 'DL', '392', 'DCA', 'LAX', 'Oearly[6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE  ('2024-01-03', 'DL', '410', 'DCA', 'ATL', 'early[7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '455', 'DCA', 'ATL', 'Delayed [227]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '467', 'DCA', 'MSP', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '553', 'DCA', 'SLC', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '654', 'DCA', 'ATL', 'Delayed [73]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '759', 'DCA', 'ATL', 'early[1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '832', 'DCA', 'ATL', 'Delayed [45]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '850', 'DCA', 'ATL', 'early[1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '959', 'DCA', 'ATL', 'early[2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '1165', 'DCA', 'MSP', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '1435', 'DCA', 'DTW', 'early[8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-03', 'DL', '1608', 'DCA', 'ATL', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '2280', 'DCA', 'MSP', 'early[9]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '2476', 'DCA', 'DTW', 'early[2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '2576', 'DCA', 'MIA', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '2698', 'DCA', 'MSP', 'early[12]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-03', 'DL', '2953', 'DCA', 'MCO', 'Delayed [14]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '380', 'DCA', 'ATL', 'Delayed [11]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+vALUE ('2024-01-04', 'DL', '392', 'DCA', 'LAX', 'early[2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '410', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '455', 'DCA', 'ATL', 'Delayed [386]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '467', 'DCA', 'MSP', 'early[10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '553', 'DCA', 'SLC', 'Delayed [9]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '654', 'DCA', 'ATL', 'Delayed [2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '759', 'DCA', 'ATL', 'early[1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '832', 'DCA', 'ATL', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+vALUE ('2024-01-04', 'DL', '850', 'DCA', 'ATL', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '959', 'DCA', 'ATL', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '1165', 'DCA', 'MSP', 'early[8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '1435', 'DCA', 'DTW', 'early[12]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '1608', 'DCA', 'ATL', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-04', 'DL', '2280', 'DCA', 'MSP', 'early[14]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '2476', 'DCA', 'DTW', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '2576', 'DCA', 'MIA', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '2698', 'DCA', 'MSP', 'early[12]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-04', 'DL', '2953', 'DCA', 'MCO', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '380', 'DCA', 'ATL', 'early[2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '392', 'DCA', 'LAX', 'Delayed [126]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '410', 'DCA', 'ATL', 'early[2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '455', 'DCA', 'ATL', 'early[1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '467', 'DCA', 'MSP', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '553', 'DCA', 'SLC', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '654', 'DCA', 'ATL', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '759', 'DCA', 'ATL', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '850', 'DCA', 'ATL', 'Delayed [25]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '918', 'DCA', 'ATL', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '959', 'DCA', 'ATL', 'early[1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '1165', 'DCA', 'MSP', 'early[2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '1435', 'DCA', 'DTW', 'early[7]'); 
+..
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '1608', 'DCA', 'ATL', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '2280', 'DCA', 'MSP', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '2476', 'DCA', 'DTW', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '2576', 'DCA', 'MIA', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '2698', 'DCA', 'MSP', 'early[11]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-05', 'DL', '2953', 'DCA', 'MCO', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '380', 'DCA', 'ATL', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '392', 'DCA', 'LAX', 'Delayed [1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '410', 'DCA', 'ATL', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '455', 'DCA', 'ATL', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '467', 'DCA', 'MSP', 'Delayed [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '553', 'DCA', 'SLC', 'Delayed [44]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '654', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '759', 'DCA', 'ATL', 'early[1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '832', 'DCA', 'ATL', 'early[11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '850', 'DCA', 'ATL', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '959', 'DCA', 'ATL', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '1165', 'DCA', 'MSP', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '1435', 'DCA', 'DTW', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '1608', 'DCA', 'ATL', 'Delayed [40]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '2280', 'DCA', 'MSP', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '2476', 'DCA', 'DTW', 'Delayed [31]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '2576', 'DCA', 'MIA', 'Delayed [13]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '2698', 'DCA', 'MSP', 'early[14]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-06', 'DL', '2953', 'DCA', 'MCO', 'early[2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '330', 'DCA', 'ATL', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '380', 'DCA', 'ATL', 'early[4]'); 	
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '392', 'DCA', 'LAX', 'Delayed [35]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '410', 'DCA', 'ATL', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '426', 'DCA', 'ATL', 'Delayed [16]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '451', 'DCA', 'ATL', 'Delayed [4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '455', 'DCA', 'ATL', 'early[3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '467', 'DCA', 'MSP', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '553', 'DCA', 'SLC', 'Delayed [27]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '759', 'DCA', 'ATL', 'Delayed [4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '832', 'DCA', 'ATL', 'early[5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '850', 'DCA', 'ATL', 'early[3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '918', 'DCA', 'ATL', 'early[1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '959', 'DCA', 'ATL', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '1165', 'DCA', 'MSP', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '1435', 'DCA', 'DTW', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '1475', 'DCA', 'DTW', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '2280', 'DCA', 'MSP', 'early[1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '2309', 'DCA', 'MIA', 'early[8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '2476', 'DCA', 'DTW', 'Delayed [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '2698', 'DCA', 'MSP', 'early[5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '2729', 'DCA', 'MCO', 'early[6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-07', 'DL', '2953', 'DCA', 'MCO', 'Delayed [8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '330', 'DCA', 'ATL', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '343', 'DCA', 'ATL', 'early[7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '380', 'DCA', 'ATL', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '392', 'DCA', 'LAX', 'early[3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '410', 'DCA', 'ATL', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '426', 'DCA', 'ATL', 'early[2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '455', 'DCA', 'ATL', 'early[8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '507', 'DCA', 'ATL', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '553', 'DCA', 'SLC', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '832', 'DCA', 'ATL', 'early[17]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '950', 'DCA', 'ATL', 'early[6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '1003', 'DCA', 'MCO', 'early[4]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '1019', 'DCA', 'MSP', 'early [3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '1064', 'DCA', 'MSP', 'Delayed [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '1085', 'DCA', 'DTW', 'early [9]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '1138', 'DCA', 'MSP', 'early [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '1193', 'DCA', 'MSP', 'early [11]');
+
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-08', 'DL', '1212', 'DCA', 'ATL', 'Delayed [1]');
+
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-10', 'DL', '1326', 'DCA', 'DTW', 'Delayed [3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-10', 'DL', '1493', 'DCA', 'MSP', 'early [7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-10', 'DL', '1534', 'DCA', 'ATL', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-10', 'DL', '1651', 'DCA', 'DTW', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-10', 'DL', '2351', 'DCA', 'MCO', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-10', 'DL', '2576', 'DCA', 'MIA', 'early[12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-10-01', 'DL', '2849', 'DCA', 'DTW', 'early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '330', 'DCA', 'ATL', 'early. [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '343', 'DCA', 'ATL', 'Delayed [125]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '380', 'DCA', 'ATL', 'Delayed [300]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '392', 'DCA', 'LAX', 'Delayed [23]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '410', 'DCA', 'ATL', 'early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '426', 'DCA', 'ATL', 'Delayed [26]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '455', 'DCA', 'ATL', 'Delayed [50]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '507', 'DCA', 'ATL', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '553', 'DCA', 'SLC', 'Delayed [20]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '832', 'DCA', 'ATL', 'Delayed [22]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '950', 'DCA', 'ATL', 'Delayed [103]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '1003', 'DCA', 'MCO', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '1019', 'DCA', 'MSP', 'Delayed [74]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-11', 'DL', '1064', 'DCA', 'MSP', 'early [8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '1085', 'DCA', 'DTW', 'Delayed [30]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '1138', 'DCA', 'MSP', 'Delayed [16]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '1193', 'DCA', 'MSP', 'early [16]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '1212', 'DCA', 'ATL', 'Delayed [111]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '1326', 'DCA', 'DTW', 'early [11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '1493', 'DCA', 'MSP', 'Delayed [20]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '1534', 'DCA', 'ATL', 'Delayed [118]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '2351', 'DCA', 'MCO', 'Delayed [51]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-11', 'DL', '2849', 'DCA', 'DTW', 'early [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '343', 'DCA', 'ATL', 'early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '380', 'DCA', 'ATL', 'early [4] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '426', 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '455', 'DCA', 'ATL', 'Delayed [20]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '507', 'DCA', 'ATL', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '553', 'DCA', 'SLC', 'Delayed [41]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '832', 'DCA', 'ATL', 'early [21]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '950', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1003', 'DCA', 'MCO', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1019', 'DCA', 'MSP', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1085', 'DCA', 'DTW', 'early [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1138', 'DCA', 'MSP', 'early[6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1193', 'DCA', 'MSP', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1212', 'DCA', 'ATL', 'early[6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1326', 'DCA', 'DTW', 'early[11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1493', 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1651', 'DCA', 'DTW', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '2351', 'DCA', 'MCO', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '2525', 'DCA', 'ATL', 'early[8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '2576', 'DCA', 'MIA', 'early[7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '380', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '392', 'DCA', 'LAX', 'early[6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '410', 'DCA', 'ATL', 'early[4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '426', 'DCA', 'ATL', 'early[1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '455', 'DCA', 'ATL', 'early[2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '507', 'DCA', 'ATL', 'early[9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '553', 'DCA', 'SLC', 'Delayed [19]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '950', 'DCA', 'ATL', 'early[14]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1003', 'DCA', 'MCO', 'early[10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1138', 'DCA', 'MSP', 'early [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1193', 'DCA', 'MSP', 'early[13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1212', 'DCA', 'ATL', 'early[2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '1493', 'DCA', 'MSP', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-12', 'DL', '2351', 'DCA', 'MCO', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-12', 'DL', '2525', 'DCA', 'ATL', 'Delayed [59]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-12', 'DL', '2576', 'DCA', 'MIA', 'Delayed 8');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-12', 'DL', '2849', 'DCA', 'DTW', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES  ('2024-01-12', 'DL', '1651', 'DCA', 'DTW', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-13', 'DL', '1193', 'DCA', 'MSP', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '330', 'DCA', 'ATL', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '359', 'DCA', 'MSP', 'Delayed [119]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '380', 'DCA', 'ATL', 'Delayed [73]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '392', 'DCA', 'LAX', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '410', 'DCA', 'ATL', 'early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '426', 'DCA', 'ATL', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '455', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '507', 'DCA', 'ATL', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '553', 'DCA', 'SLC', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '950', 'DCA', 'ATL', 'early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '1003', 'DCA', 'MCO', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-13', 'DL', '1138', 'DCA', 'MSP', 'Delayed [171]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '1193', 'DCA', 'MSP', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '1212', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '1493', 'DCA', 'MSP', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '1651', 'DCA', 'DTW', 'Delayed [304]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '2351', 'DCA', 'MCO', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '2525', 'DCA', 'ATL', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-13', 'DL', '2576', 'DCA', 'MIA', 'Delayed [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '330', 'DCA', 'ATL', 'Delayed [140]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '343', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '380', 'DCA', 'ATL', 'Delayed [152]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '392', 'DCA', 'LAX', 'Delayed [49]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '410', 'DCA', 'ATL', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '426', 'DCA', 'ATL', 'Delayed [130]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '455', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '507', 'DCA', 'ATL', 'Delayed [350]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '553', 'DCA', 'SLC', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '832', 'DCA', 'ATL', 'Delayed [105]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '950', 'DCA', 'ATL', 'Delayed [267]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '1003', 'DCA', 'MCO', 'Delayed [160]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '1019', 'DCA', 'MSP', 'Delayed [446]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1064', 'DCA', 'MSP', 'Delayed [135]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1085', 'DCA', 'DTW', 'Delayed [122]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1138', 'DCA', 'MSP', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1193', 'DCA', 'MSP', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1212', 'DCA', 'ATL', 'Delayed [12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1326', 'DCA', 'DTW', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1493', 'DCA', 'MSP', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1534', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '1651', 'DCA', 'DTW', 'Delayed [73]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-15', 'DL', '2351', 'DCA', 'MCO', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-15', 'DL', '2463', 'DCA', 'MIA', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-15', 'DL', '2849', 'DCA', 'DTW', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '343', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '455', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '1138', 'DCA', 'MSP', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '1326', 'DCA', 'DTW', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '1493', 'DCA', 'MSP', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '1534', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '2351', 'DCA', 'MCO', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '2463', 'DCA', 'MIA', 'Cancelled'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-15', 'DL', '2849', 'DCA', 'DTW', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '343', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '455', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '1138', 'DCA', 'MSP', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '1326', 'DCA', 'DTW', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '1493', 'DCA', 'MSP', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '1534', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '2351', 'DCA', 'MCO', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '2463', 'DCA', 'MIA', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-15', 'DL', '2849', 'DCA', 'DTW', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-16', 'DL', '330', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-16', 'DL', '343', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-16', 'DL', '410', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-16', 'DL', '455', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-16', 'DL', '1193', 'DCA', 'MSP', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-16', 'DL', '330', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-16', 'DL', '343', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-16', 'DL', '410', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-16', 'DL', '455', 'DCA', 'ATL', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-16', 'DL', '1193', 'DCA', 'MSP', 'Cancelled');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '330', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '343', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '380', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-16', 'DL', '392', 'DCA', 'LAX', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-16', 'DL', '410', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '426', 'DCA', 'ATL', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '455', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '507', 'DCA', 'ATL', 'Delayed [138]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '553', 'DCA', 'SLC', 'Delayed [40]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '832', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '950', 'DCA', 'ATL', 'Delayed [74]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1003', 'DCA', 'MCO', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1019', 'DCA', 'MSP', 'Delayed [49]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1064', 'DCA', 'MSP', 'Delayed [31]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1085', 'DCA', 'DTW', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1138', 'DCA', 'MSP', 'Delayed [18]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1193', 'DCA', 'MSP', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1212', 'DCA', 'ATL', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-16', 'DL', '1493', 'DCA', 'MSP', 'early [8]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-16', 'DL', '1534', 'DCA', 'ATL', 'Delayed [28]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '1651', 'DCA', 'DTW', 'Delayed [29]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '2351', 'DCA', 'MCO', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '2463', 'DCA', 'MIA', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-16', 'DL', '2849', 'DCA', 'DTW', 'Delayed [30]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '343', 'DCA', 'ATL', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '380', 'DCA', 'ATL', 'Delayed [[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '392', 'DCA', 'LAX', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '410', 'DCA', 'ATL', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '426', 'DCA', 'ATL', 'Delayed [70]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '455', 'DCA', 'ATL', 'Delayed [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '507', 'DCA', 'ATL', 'Delayed [15]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '553', 'DCA', 'SLC', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '832', 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '950', 'DCA', 'ATL', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1003', 'DCA', 'MCO', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1019', 'DCA', 'MSP', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1064', 'DCA', 'MSP', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1085', 'DCA', 'DTW', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1138', 'DCA', 'MSP', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1212', 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1326', 'DCA', 'DTW', 'Delayed [141] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1493', 'DCA', 'MSP', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1534', 'DCA', 'ATL', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '1651', 'DCA', 'DTW', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '2351', 'DCA', 'MCO', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '2576', 'DCA', 'MIA', 'Delayed [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-17', 'DL', '2849', 'DCA', 'DTW', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-18', 'DL', '330', 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '343', 'DCA', 'ATL', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-18', 'DL', '380', 'DCA', 'ATL', 'Delayed [34]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '392', 'DCA', 'LAX', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '410', 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '426', 'DCA', 'ATL', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '455', 'DCA', 'ATL', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '507', 'DCA', 'ATL', 'Delayed [95]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '553', 'DCA', 'SLC', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '832', 'DCA', 'ATL', 'Delayed [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '950', 'DCA', 'ATL', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '1003', 'DCA', 'MCO', 'Delayed [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '1019', 'DCA', 'MSP', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-18', 'DL', '1064', 'DCA', 'MSP', 'Delayed [12]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-18', 'DL', '1085', 'DCA', 'DTW', 'Delayed [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-18', 'DL', '1138', 'DCA', 'MSP', 'Delayed [6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-18', 'DL', '1193', 'DCA', 'MSP', 'Delayed [7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-18', 'DL', '1212', 'DCA', 'ATL', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES ('2024-01-19', 'DL', '1326', 'DCA', 'DTW', 'Delayed [59]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-19', 'DL', '1493', 'DCA', 'MSP', 'Delayed [69]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-19', 'DL', '1534', 'DCA', 'ATL', 'Delayed [254]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-19', 'DL', '1651', 'DCA', 'DTW', 'Delayed [78]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-19', 'DL', '2351', 'DCA', 'MCO', 'On-time');
+
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-19', 'DL', '2463', 'DCA', 'MIA', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-19', 'DL', '2849', 'DCA', 'DTW', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '330', 'DCA', 'ATL', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '359', 'DCA', 'MSP', ' early [2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '380', 'DCA', 'ATL', 'early [1]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '392', 'DCA', 'LAX', 'early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-20', 'DL', '410', 'DCA', 'ATL', 'early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '426', 'DCA', 'ATL', 'On time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '455', 'DCA', 'ATL', 'early [11]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '507', 'DCA', 'ATL', 'early [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-20', 'DL', '553', 'DCA', 'SLC', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-20', 'DL', '950', 'DCA', 'ATL', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE('2024-01-20', 'DL', '1003', 'DCA', 'MCO', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '1193', 'DCA', 'MSP', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '1212', 'DCA', 'ATL', 'On time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '1493', 'DCA', 'MSP', 'On-time');
+ 
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '1651', 'DCA', 'DTW', 'Delayed [40]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '2351', 'DCA', 'MCO', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '2525', 'DCA', 'ATL', 'Departed [7]');
+ 
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-20', 'DL', '2576', 'DCA', 'MIA', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '330', 'DCA', 'ATL', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '343', 'DCA', 'ATL', 'early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '380', 'DCA', 'ATL', 'Delayed [12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES('2024-01-21', 'DL', '392', 'DCA', 'LAX', 'Delayed [28]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES('2024-01-21', 'DL', '410', 'DCA', 'ATL', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '426', 'DCA', 'ATL', 'Delayed [26]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '455', 'DCA', 'ATL', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '507', 'DCA', 'ATL', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '553', 'DCA', 'SLC', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '832', 'DCA', 'ATL', 'Delayed [14]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '950', 'DCA', 'ATL', 'Delayed [11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1003', 'DCA', 'MCO', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1019', 'DCA', 'MSP', 'Delayed [12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1064', 'DCA', 'MSP', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1064', 'DCA', 'MSP', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1085', 'DCA', 'DTW', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1138', 'DCA', 'MSP', 'Delayed [117]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1193', 'DCA', 'MSP', 'early [11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1212', 'DCA', 'ATL', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1326', 'DCA', 'DTW', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-21', 'DL', '1493', 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '1651', 'DCA', 'DTW', 'Delayed [19]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES('2024-01-21', 'DL', '2351', 'DCA', 'MCO', 'Delayed [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '2463', 'DCA', 'MIA', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-21', 'DL', '2849', 'DCA', 'DTW', 'early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-22', 'DL', '1193', 'DCA', 'MSP', 'Delayed [11]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUES ('2024-01-22', 'DL', '1326', 'DCA', 'DTW', 'On time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '343', 'DCA', 'ATL', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '392', 'DCA', 'LAX', 'Delayed [14]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '410', 'DCA', 'ATL', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '426', 'DCA', 'ATL', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '455', 'DCA', 'ATL', 'Delayed [11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '507', 'DCA', 'ATL', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '553', 'DCA', 'SLC', 'On time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '832', 'DCA', 'ATL', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '950', 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1003', 'DCA', 'MCO', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1019', 'DCA', 'MSP', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1064', 'DCA', 'MSP', 'Delayed [11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1085', 'DCA', 'DTW', 'Delayed [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1138', 'DCA', 'MSP', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1212', 'DCA', 'ATL', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1326', 'DCA', 'DTW', 'Delayed [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1493', 'DCA', 'MSP', 'Delayed [11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1534', 'DCA', 'ATL', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '1651', 'DCA', 'DTW', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '2351', 'DCA', 'MCO', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '2463', 'DCA', 'MIA', 'Delayed [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-24', 'DL', '2849', 'DCA', 'DTW', 'Delayed [7] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '330', 'DCA', 'ATL', 'Delayed [1] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '343', 'DCA', 'ATL', 'Delayed [20]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '380', 'DCA', 'ATL', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE  ('2024-01-25', 'DL', '392', 'DCA', 'LAX', 'Delayed [136] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '410', 'DCA', 'ATL', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '426', 'DCA', 'ATL', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '455', 'DCA', 'ATL', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '507', 'DCA', 'ATL', 'Delayed [4] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '553', 'DCA', 'SLC', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '832', 'DCA', 'ATL', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '950', 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1003', 'DCA', 'MCO', 'Delayed [4] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1019', 'DCA', 'MSP', 'Delayed [7] ');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1064', 'DCA', 'MSP', 'Delayed 5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1085', 'DCA', 'DTW', 'On time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1138', 'DCA', 'MSP', 'Delayed [2]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1193', 'DCA', 'MSP', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1212', 'DCA', 'ATL', 'Delayed [17]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1326', 'DCA', 'DTW', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1493', 'DCA', 'MSP', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1534', 'DCA', 'ATL', 'On time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '1651', 'DCA', 'DTW', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '2351', 'DCA', 'MCO', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '2463', 'DCA', 'MIA', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-25', 'DL', '2849', 'DCA', 'DTW', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-26', 'DL', 330, 'DCA', 'ATL', 'Delayed [27]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+value ('2024-01-26', 'DL', 343, 'DCA', 'ATL', 'early[-1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+value ('2024-01-26', 'DL', 380, 'DCA', 'ATL', 'Delayed [7]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 392, 'DCA', 'LAX', ' On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 410, 'DCA', 'ATL', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 426, 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 455, 'DCA', 'ATL', 'Dealyed [136]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 507, 'DCA', 'ATL', 'early [12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 553, 'DCA', 'SLC', 'Delayed [22]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 832, 'DCA', 'ATL', 'early [17]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 950, 'DCA', 'ATL', 'Delayed 13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1003, 'DCA', 'MCO', 'Delayed 161]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1019, 'DCA', 'MSP', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1064, 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1085, 'DCA', 'DTW', 'Delayed [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1138, 'DCA', 'MSP', 'Delayed [25]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1193, 'DCA', 'MSP', 'Delayed[2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1212, 'DCA', 'ATL', 'Delayed [78]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1326, 'DCA', 'DTW', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1493, 'DCA', 'MSP', 'Delayed 151]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1534, 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 1651, 'DCA', 'DTW', 'Delayed [16]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 2351, 'DCA', 'MCO','early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', 2576, 'DCA', 'MIA', 'Delayed [9]');
+
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE ('2024-01-26', 'DL', 2849, 'DCA', 'DTW', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 330, 'DCA', 'ATL', 'On-time');
+
+/
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 359, 'DCA', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 380, 'DCA', 'ATL', 'Delayed[5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 392, 'DCA', 'LAX', 'early [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 410, 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 426, 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 455, 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 507, 'DCA', 'ATL', 'early [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 553, 'DCA', 'SLC', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 950, 'DCA', 'ATL', 'early [16]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 1003, 'DCA', 'MCO', 'Delayed [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 1193, 'DCA', 'MSP', 'early[8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 1212, 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 1493, 'DCA', 'MSP', 'early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 1651, 'DCA', 'DTW', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 2351, 'DCA', 'MCO', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 2525, 'DCA', 'ATL', 'early  [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', 2576, 'DCA', 'MIA', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 330, 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 343, 'DCA', 'ATL', 'Delayed [71]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+value ('2024-01-28', 'DL', 380, 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 392, 'DCA', 'LAX', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 410, 'DCA', 'ATL', ' early[5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 426, 'DCA', 'ATL', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 455, 'DCA', 'ATL',  'early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 507, 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 553, 'DCA', 'SLC', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 832, 'DCA', 'ATL', 'Delayed [87]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 950, 'DCA', 'ATL', 'Delayed [18]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 1003, 'DCA', 'MCO', 'Delayed [18]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 1019, 'DCA', 'MSP', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 1064, 'DCA', 'MSP', 'Delayed [39]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+value ('2024-01-28 ', 'DL', 1085, 'DCA', 'DTW', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 1138, 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 1193, 'DCA', 'MSP', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+value ('2024-01-28', 'DL', 1212, 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+value ('2024-01-28', 'DL', 1326, 'DCA', 'DTW', 'early ]2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 1493, 'DCA', 'MSP', 'Dealyed[7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 1534, 'DCA', 'ATL', 'Delayed [29]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '330', 'DCA', 'ATL',' Delayed [27]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '343', 'DCA', 'ATL', 'On-time'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '380', 'DCA', 'ATL', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26','DL', '392', 'DCA', 'LAX', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26','DL', '410', 'DCA', 'ATL', 'Dealyed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '426', 'DCA', 'ATL', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL' ,'455', 'DCA', 'ATL', 'Delayed [136]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26','DL', '507', 'DCA', 'ATL', ' Delayed [12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '553', 'DCA', 'SLC', 'Delayed [22]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '832', 'DCA', 'ATL', 'early [17]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '950', 'DCA', 'ATL', ' Delayed [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26','DL', '1003', 'DCA', 'MCO',  'Delayed [161]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26','DL', '1019', 'DCA', 'MSP', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26','DL', '1064', 'DCA', 'MSP',  'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '1085', 'DCA', 'DTW',  'Delayed [5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '1138', 'DCA', 'MSP', ' Delayed [25]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '1193', 'DCA', 'MSP',  'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '1212', 'DCA', 'ATL',  'Delayed [78]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '1326', 'DCA', 'DTW', 'Delayed [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL' ,'1493', 'DCA', 'MSP', 'Delayed [151]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '1534', 'DCA', 'ATL', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '1651', 'DCA', 'DTW', 'Delayed [16]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26','DL', '2351', 'DCA', 'MCO', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '2576', 'DCA', 'MIA',  'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-26', 'DL', '2849', 'DCA', 'DTW', 'early[3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '330', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '359', 'DCA', 'MSP', 'Delayed[2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL','380', 'DCA', 'ATL', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL' ,'392', 'DCA', 'LAX', 'early [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', '410', 'DCA', 'ATL', 'early [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', '426', 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '455', 'DCA', 'ATL', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', '507', 'DCA', 'ATL',  'early [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', '553', 'DCA', 'SLC', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)
+VALUE  ('2024-01-27','DL', '950', 'DCA', 'ATL', 'early [16]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '1003', 'DCA', 'MCO', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '1193', 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '1212', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '1493', 'DCA', 'MSP', 'early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '1651', 'DCA', 'DTW', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27','DL', '2351', 'DCA', 'MCO', 'early [4]');
+
+ INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-27', 'DL', '2525', 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ( '2024-01-27','DL', '2576', 'DCA', 'MIA', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '330', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '343', 'DCA', 'ATL', 'Delayed [71]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '380', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '392', 'DCA', 'LAX', 'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '410', 'DCA', 'ATL', 'early [5]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '426', 'DCA', 'ATL', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '455', 'DCA', 'ATL', 'early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '507', 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '553', 'DCA', 'SLC', 'early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '832', 'DCA', 'ATL', 'Delayed [87]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '950', 'DCA', 'ATL',  'Delayed [18]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '1003', 'DCA', 'MCO', 'Delayed [18]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '1019', 'DCA', 'MSP', 'early[5]');
+
+ INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '1064', 'DCA', 'MSP',  'Delayed [39]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '1085', 'DCA', 'DTW',  'Delayed [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '1138', 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '1193', 'DCA', 'MSP','early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL' , '1212', 'DCA', 'ATL', 'early [3]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '1326', 'DCA', 'DTW', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', '1493', 'DCA', 'MSP', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '1534', 'DCA', 'ATL','Delayed [29]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', '1651', 'DCA', 'DTW','early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28', 'DL', 2351, 'DCA', 'MCO', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', 2576, 'DCA', 'MIA','early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-28','DL', 2849, 'DCA', 'DTW', 'Delayed [59]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29', 'DL', 330, 'DCA', 'ATL', 'Delayed [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29','DL', 343, 'DCA', 'ATL','early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29', 'DL', 380, 'DCA', 'ATL', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29','DL', 392, 'DCA', 'LAX','early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29', 'DL', 410, 'DCA', 'ATL','early [3]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29', 'DL', 426, 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29', 'DL', 455, 'DCA', 'ATL', 'Delayed [45]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29','DL', 507, 'DCA', 'ATL', 'early [6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-29', 'DL', 553, 'DCA', 'SLC', 'Delayed [208]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 330, 'DCA', 'ATL','early [6]'); 
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 343, 'DCA', 'ATL','early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-30','DL', 380, 'DCA', 'ATL','early [9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 392, 'DCA', 'LAX','early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 410, 'DCA', 'ATL','early [6]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-30','DL', 426, 'DCA', 'ATL','early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 455, 'DCA', 'ATL','early [12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 507, 'DCA', 'ATL','early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 553, 'DCA', 'SLC','Delayed [272]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 832, 'DCA', 'ATL', 'early [15]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 950, 'DCA', 'ATL', 'early [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 1003, 'DCA', 'MCO', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 1019, 'DCA', 'MSP', 'early [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-30', 'DL', 1064, 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 1085, 'DCA', 'DTW', 'early [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 1138, 'DCA', 'MSP', 'Delayed [16]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL',  1193, 'DCA', 'MSP', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 1212, 'DCA', 'ATL', 'early [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 1493, 'DCA', 'MSP', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-30', 'DL', 1534, 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 1651, 'DCA', 'DTW', 'early [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30','DL', 2351, 'DCA', 'MCO', 'early [10]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-30','DL', 2576, 'DCA', 'MIA', 'early [14]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-30', 'DL', 2849, 'DCA', 'DTW', 'Delayed [66]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL',343, 'DCA', 'ATL', 'Delayed [27]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL', 380, 'DCA', 'ATL', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL', 392, 'DCA', 'LAX', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL', 410, 'DCA', 'ATL', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-31','DL', 426, 'DCA', 'ATL', 'early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL', 455, 'DCA', 'ATL', 'Delayed [4]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL' , 507, 'DCA', 'ATL', 'Delayed  [12]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL', 553, 'DCA', 'SLC', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-31', 'DL',832, 'DCA', 'ATL', 'early [14]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status)  
+VALUE('2024-01-31','DL', 1003, 'DCA', 'MCO', 'early [8]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-31', 'DL',1019, 'DCA', 'MSP', 'early[9]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL', 1064, 'DCA', 'MSP', 'early [7]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL', 1085, 'DCA', 'DTW', 'Delayed [11]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL', 1138, 'DCA', 'MSP', 'On-time');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL', 1212, 'DCA', 'ATL', 'Delayed [1]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL', 1326, 'DCA', 'DTW','early [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL', 1493, 'DCA', 'MSP','early [5]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL', 1651, 'DCA', 'DTW','Delayed [43]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31', 'DL', 2351, 'DCA', 'MCO','early [2]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE('2024-01-31','DL', 2525, 'DCA', 'ATL','earlt [13]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ('2024-01-31', 'DL', 2576, 'DCA', 'MIA',  'Delayed [184]');
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUE ( '2024-01-31', 'DL' ,2849, 'DCA', 'DTW', 'early [12]');
+
+
+
+
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2020-01-01', 'DL', 474, 'ATL', 'ATL', -6),
+('2020-01-01', 'DL', 832, 'SLC', 'SLC', -3),
+('2020-01-01', 'DL', 1139, 'ATL', 'ATL', -4),
+('2020-01-01', 'DL', 1144, 'DTW', 'DTW', -7),
+('2020-01-01', 'DL', 1368, 'MSP', 'MSP', -6),
+('2020-01-01', 'DL', 1421, 'DTW', 'DTW', -7),
+('2020-01-01', 'DL', 1515, 'MSP', 'MSP', -7),
+('2020-01-01', 'DL', 1589, 'MSP', 'MSP', 30),
+('2020-01-01', 'DL', 1631, 'LAX', 'LAX', -8),
+('2020-01-01', 'DL', 1654, 'ATL', 'ATL', 4),
+('2020-01-01', 'DL', 1960, 'DTW', 'DTW', -10),
+('2020-01-01', 'DL', 2086, 'JFK', 'JFK', -7),
+('2020-01-01', 'DL', 2594, 'ATL', 'ATL', 0),
+('2020-01-01', 'DL', 2595, 'ATL', 'ATL', -2),
+('2020-01-01', 'DL', 2602, 'ATL', 'ATL', -7),
+('2020-01-01', 'DL', 2638, 'ATL', 'ATL', -4),
+('2020-01-01', 'DL', 2799, 'ATL', 'ATL', 0),
+('2020-01-01', 'DL', 2945, 'DTW', 'DTW', -6),
+('2021-01-01', 'DL', 317, 'LAX', 'LAX', -5),
+('2021-01-01', 'DL', 416, 'ATL', 'ATL', -7),
+('2021-01-01', 'DL', 432, 'ATL', 'ATL', 184),
+('2021-01-01', 'DL', 440, 'ATL', 'ATL', 149);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2021-01-01', 'DL', 457, 'ATL', 'ATL', -6),
+('2021-01-01', 'DL', 464, 'ATL', 'ATL', 162),
+('2021-01-01', 'DL', 1108, 'MSP', 'MSP', -7),
+('2021-01-01', 'DL', 1559, 'DTW', 'DTW', -10),
+('2021-01-01', 'DL', 2006, 'DTW', 'DTW', -8),
+('2021-01-01', 'DL', 2022, 'MSP', 'MSP', -7),
+('2021-01-01', 'DL', 2226, 'ATL', 'ATL', -7),
+('2021-01-01', 'DL', 2276, 'DTW', 'DTW', 25),
+('2022-01-01', 'DL', 307, 'ATL', 'ATL', 39),
+('2022-01-01', 'DL', 342, 'LAX', 'LAX', 0),
+('2022-01-01', 'DL', 418, 'ATL', 'ATL', 2),
+('2022-01-01', 'DL', 457, 'ATL', 'ATL', 0),
+('2022-01-01', 'DL', 464, 'ATL', 'ATL', -1),
+('2022-01-01', 'DL', 528, 'ATL', 'ATL', 0),
+('2022-01-01', 'DL', 539, 'ATL', 'ATL', 24),
+('2022-01-01', 'DL', 760, 'SLC', 'SLC', 2),
+('2022-01-01', 'DL', 1465, 'MSP', 'MSP', 6),
+('2022-01-01', 'DL', 1570, 'DTW', 'DTW', -3),
+('2022-01-01', 'DL', 1740, 'MSP', 'MSP', -1),
+('2022-01-01', 'DL', 2244, 'MSP', 'MSP', 77),
+('2022-01-01', 'DL', 2885, 'DTW', 'DTW', 0),
+('2022-01-01', 'DL', 2995, 'DTW', 'DTW', 3),
+('2023-01-01', 'DL', 306, 'ATL', 'ATL', -3),
+('2023-01-01', 'DL', 342, 'LAX', 'LAX', -1),
+('2023-01-01', 'DL', 395, 'ATL', 'ATL', -7),
+('2023-01-01', 'DL', 457, 'ATL', 'ATL', 80),
+('2023-01-01', 'DL', 464, 'ATL', 'ATL', 38),
+('2023-01-01', 'DL', 472, 'SLC', 'SLC', 93),
+('2023-01-01', 'DL', 528, 'ATL', 'ATL', 12);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2023-01-01', 'DL', 1522, 'ATL', 'ATL', 11),
+('2023-01-01', 'DL', 2093, 'MSP', 'MSP', -6),
+('2023-01-01', 'DL', 2270, 'DTW', 'DTW', -4),
+('2023-01-01', 'DL', 2675, 'MSP', 'MSP', 0),
+('2023-01-01', 'DL', 2806, 'DTW', 'DTW', -6),
+('2023-01-01', 'DL', 2885, 'DTW', 'DTW', -5),
+('2020-01-02', 'DL', 474, 'ATL', 'ATL', -6),
+('2020-01-02', 'DL', 832, 'SLC', 'SLC', -7),
+('2020-01-02', 'DL', 839, 'ATL', 'ATL', -5),
+('2020-01-02', 'DL', 1139, 'ATL', 'ATL', -4),
+('2020-01-02', 'DL', 1144, 'DTW', 'DTW', -2),
+('2020-01-02', 'DL', 1368, 'MSP', 'MSP', -1),
+('2020-01-02', 'DL', 1421, 'DTW', 'DTW', -7),
+('2020-01-02', 'DL', 1515, 'MSP', 'MSP', -3),
+('2020-01-02', 'DL', 1589, 'MSP', 'MSP', -8),
+('2020-01-02', 'DL', 1631, 'LAX', 'LAX', -5),
+('2020-01-02', 'DL', 1654, 'ATL', 'ATL', -6),
+('2020-01-02', 'DL', 1764, 'MSP', 'MSP', -5),
+('2020-01-02', 'DL', 1960, 'DTW', 'DTW', -2),
+('2020-01-02', 'DL', 2086, 'JFK', 'JFK', -10),
+('2020-01-02', 'DL', 2238, 'ATL', 'ATL', -11),
+('2020-01-02', 'DL', 2594, 'ATL', 'ATL', 2),
+('2020-01-02', 'DL', 2602, 'ATL', 'ATL', -4),
+('2020-01-02', 'DL', 2638, 'ATL', 'ATL', 28),
+('2020-01-02', 'DL', 2799, 'ATL', 'ATL', -8),
+('2020-01-02', 'DL', 2811, 'ATL', 'ATL', -16),
+('2020-01-02', 'DL', 2945, 'DTW', 'DTW', -6),
+('2021-01-02', 'DL', 317, 'LAX', 'LAX', -6),
+('2021-01-02', 'DL', 416, 'ATL', 'ATL', -4),
+('2021-01-02', 'DL', 432, 'ATL', 'ATL', -6),
+('2021-01-02', 'DL', 440, 'ATL', 'ATL', -7),
+('2021-01-02', 'DL', 457, 'ATL', 'ATL', -3),
+('2021-01-02', 'DL', 464, 'ATL', 'ATL', -6),
+('2021-01-02', 'DL', 777, 'SLC', 'SLC', -5),
+('2021-01-02', 'DL', 1043, 'MSP', 'MSP', -3),
+('2021-01-02', 'DL', 1108, 'MSP', 'MSP', -3),
+('2021-01-02', 'DL', 1559, 'DTW', 'DTW', -2),
+('2021-01-02', 'DL', 2006, 'DTW', 'DTW', -5),
+('2021-01-02', 'DL', 2022, 'MSP', 'MSP', -11),
+('2021-01-02', 'DL', 2226, 'ATL', 'ATL', -6);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2021-01-02', 'DL', 2276, 'DTW', 'DTW', -1),
+('2022-01-02', 'DL', 306, 'ATL', 'ATL', 14),
+('2022-01-02', 'DL', 307, 'ATL', 'ATL', 37),
+('2022-01-02', 'DL', 342, 'LAX', 'LAX', 12),
+('2022-01-02', 'DL', 361, 'ATL', 'ATL', 45),
+('2022-01-02', 'DL', 395, 'ATL', 'ATL', 0),
+('2022-01-02', 'DL', 418, 'ATL', 'ATL', 13),
+('2022-01-02', 'DL', 457, 'ATL', 'ATL', 10),
+('2022-01-02', 'DL', 464, 'ATL', 'ATL', 29),
+('2022-01-02', 'DL', 528, 'ATL', 'ATL', 13),
+('2022-01-02', 'DL', 538, 'ATL', 'ATL', 35),
+('2022-01-02', 'DL', 539, 'ATL', 'ATL', 2),
+('2022-01-02', 'DL', 760, 'SLC', 'SLC', 46),
+('2022-01-02', 'DL', 1343, 'MSP', 'MSP', -3),
+('2022-01-02', 'DL', 1465, 'MSP', 'MSP', 17),
+('2022-01-02', 'DL', 1530, 'DTW', 'DTW', 0),
+('2022-01-02', 'DL', 1570, 'DTW', 'DTW', -2),
+('2022-01-02', 'DL', 1637, 'DTW', 'DTW', 7),
+('2022-01-02', 'DL', 1740, 'MSP', 'MSP', 24),
+('2022-01-02', 'DL', 2244, 'MSP', 'MSP', 29),
+('2022-01-02', 'DL', 2885, 'DTW', 'DTW', 11),
+('2022-01-02', 'DL', 2995, 'DTW', 'DTW', -3),
+('2023-01-02', 'DL', 306, 'ATL', 'ATL', 8),
+('2023-01-02', 'DL', 342, 'LAX', 'LAX', -2),
+('2023-01-02', 'DL', 395, 'ATL', 'ATL', 3),
+('2023-01-02', 'DL', 418, 'ATL', 'ATL', 11),
+('2023-01-02', 'DL', 457, 'ATL', 'ATL', -4),
+('2023-01-02', 'DL', 464, 'ATL', 'ATL', 0),
+('2023-01-02', 'DL', 472, 'SLC', 'SLC', 6),
+('2023-01-02', 'DL', 528, 'ATL', 'ATL', -2);
+
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2023-01-02', 'DL', 560, 'ATL', 'ATL', 38),
+('2023-01-02', 'DL', 910, 'ATL', 'ATL', 61),
+('2023-01-02', 'DL', 1522, 'ATL', 'ATL', -2),
+('2023-01-02', 'DL', 1740, 'MSP', 'MSP', -3),
+('2023-01-02', 'DL', 2093, 'MSP', 'MSP', -5),
+('2023-01-02', 'DL', 2206, 'ATL', 'ATL', -7),
+('2023-01-02', 'DL', 2244, 'MSP', 'MSP', -8),
+('2023-01-02', 'DL', 2623, 'DTW', 'DTW', -10),
+('2023-01-02', 'DL', 2675, 'MSP', 'MSP', -4),
+('2023-01-02', 'DL', 2875, 'DTW', 'DTW', -1),
+('2023-01-02', 'DL', 2885, 'DTW', 'DTW', 231),
+('2023-01-02', 'DL', 2995, 'DTW', 'DTW', 1),
+('2020-01-03', 'DL', 474, 'ATL', 'ATL', -7),
+('2020-01-03', 'DL', 832, 'SLC', 'SLC', -2),
+('2020-01-03', 'DL', 839, 'ATL', 'ATL', -7),
+('2020-01-03', 'DL', 1139, 'ATL', 'ATL', -9),
+('2020-01-03', 'DL', 1144, 'DTW', 'DTW', -8),
+('2020-01-03', 'DL', 1368, 'MSP', 'MSP', 0),
+('2020-01-03', 'DL', 1421, 'DTW', 'DTW', -7),
+('2020-01-03', 'DL', 1515, 'MSP', 'MSP', -3),
+('2020-01-03', 'DL', 1589, 'MSP', 'MSP', -7),
+('2020-01-03', 'DL', 1631, 'LAX', 'LAX', -1),
+('2020-01-03', 'DL', 1654, 'ATL', 'ATL', -3),
+('2020-01-03', 'DL', 1764, 'MSP', 'MSP', -7),
+('2020-01-03', 'DL', 1960, 'DTW', 'DTW', -5),
+('2020-01-03', 'DL', 2086, 'JFK', 'JFK', -2),
+('2020-01-03', 'DL', 2238, 'ATL', 'ATL', -7),
+('2020-01-03', 'DL', 2594, 'ATL', 'ATL', -3),
+('2020-01-03', 'DL', 2602, 'ATL', 'ATL', 47),
+('2020-01-03', 'DL', 2638, 'ATL', 'ATL', 19),
+('2020-01-03', 'DL', 2799, 'ATL', 'ATL', 52),
+('2020-01-03', 'DL', 2811, 'ATL', 'ATL', -6),
+('2020-01-03', 'DL', 2945, 'DTW', 'DTW', -6),
+('2021-01-03', 'DL', 317, 'LAX', 'LAX', -4),
+('2021-01-03', 'DL', 416, 'ATL', 'ATL', -7),
+('2021-01-03', 'DL', 432, 'ATL', 'ATL', 38),
+('2021-01-03', 'DL', 440, 'ATL', 'ATL', -9),
+('2021-01-03', 'DL', 457, 'ATL', 'ATL', -1),
+('2021-01-03', 'DL', 464, 'ATL', 'ATL', 41),
+('2021-01-03', 'DL', 476, 'ATL', 'ATL', -6);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2021-01-03', 'DL', 777, 'SLC', 'SLC', -1),
+('2021-01-03', 'DL', 1043, 'MSP', 'MSP', 82),
+('2021-01-03', 'DL', 1108, 'MSP', 'MSP', -4),
+('2021-01-03', 'DL', 1559, 'DTW', 'DTW', -3),
+('2021-01-03', 'DL', 2006, 'DTW', 'DTW', -7),
+('2021-01-03', 'DL', 2022, 'MSP', 'MSP', -12),
+('2021-01-03', 'DL', 2226, 'ATL', 'ATL', 39),
+('2022-01-03', 'DL', 306, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 307, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 342, 'LAX', 'LAX', 0),
+('2022-01-03', 'DL', 361, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 395, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 418, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 457, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 464, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 528, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 538, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 539, 'ATL', 'ATL', 0),
+('2022-01-03', 'DL', 760, 'SLC', 'SLC', 0),
+('2022-01-03', 'DL', 1343, 'MSP', 'MSP', 0),
+('2022-01-03', 'DL', 1465, 'MSP', 'MSP', 0),
+('2022-01-03', 'DL', 1530, 'DTW', 'DTW', 0),
+('2022-01-03', 'DL', 1570, 'DTW', 'DTW', 0),
+('2022-01-03', 'DL', 1637, 'DTW', 'DTW', 0),
+('2022-01-03', 'DL', 1740, 'MSP', 'MSP', 0),
+('2022-01-03', 'DL', 2244, 'MSP', 'MSP', 0),
+('2022-01-03', 'DL', 2675, 'MSP', 'MSP', 0),
+('2022-01-03', 'DL', 2885, 'DTW', 'DTW', 0),
+('2022-01-03', 'DL', 2995, 'DTW', 'DTW', 0),
+('2023-01-03', 'DL', 306, 'ATL', 'ATL', 18),
+('2023-01-03', 'DL', 342, 'LAX', 'LAX', 0),
+('2023-01-03', 'DL', 418, 'ATL', 'ATL', 38),
+('2023-01-03', 'DL', 457, 'ATL', 'ATL', -3),
+('2023-01-03', 'DL', 464, 'ATL', 'ATL', 11),
+('2023-01-03', 'DL', 472, 'SLC', 'SLC', 1),
+('2023-01-03', 'DL', 528, 'ATL', 'ATL', 6),
+('2023-01-03', 'DL', 560, 'ATL', 'ATL', 0),
+('2023-01-03', 'DL', 910, 'ATL', 'ATL', 44),
+('2023-01-03', 'DL', 1522, 'ATL', 'ATL', -4),
+('2023-01-03', 'DL', 1740, 'MSP', 'MSP', 3);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2023-01-03', 'DL', 2093, 'MSP', 'MSP', 53),
+('2023-01-03', 'DL', 2206, 'ATL', 'ATL', 35),
+('2023-01-03', 'DL', 2244, 'MSP', 'MSP', 34),
+('2023-01-03', 'DL', 2623, 'DTW', 'DTW', -8),
+('2023-01-03', 'DL', 2675, 'MSP', 'MSP', -3),
+('2023-01-03', 'DL', 2875, 'DTW', 'DTW', -7),
+('2023-01-03', 'DL', 2885, 'DTW', 'DTW', -7),
+('2023-01-03', 'DL', 2995, 'DTW', 'DTW', -5),
+('2020-01-04', 'DL', 474, 'ATL', 'ATL', 1),
+('2020-01-04', 'DL', 832, 'SLC', 'SLC', -3),
+('2020-01-04', 'DL', 839, 'ATL', 'ATL', -6),
+('2020-01-04', 'DL', 1144, 'DTW', 'DTW', -6),
+('2020-01-04', 'DL', 1368, 'MSP', 'MSP', -4),
+('2020-01-04', 'DL', 1421, 'DTW', 'DTW', -7),
+('2020-01-04', 'DL', 1464, 'MSP', 'MSP', -3),
+('2020-01-04', 'DL', 1631, 'LAX', 'LAX', -5),
+('2020-01-04', 'DL', 1654, 'ATL', 'ATL', 1),
+('2020-01-04', 'DL', 1764, 'MSP', 'MSP', -4),
+('2020-01-04', 'DL', 1960, 'DTW', 'DTW', -8),
+('2020-01-04', 'DL', 2086, 'JFK', 'JFK', -6),
+('2020-01-04', 'DL', 2238, 'ATL', 'ATL', -8),
+('2020-01-04', 'DL', 2594, 'ATL', 'ATL', -8),
+('2020-01-04', 'DL', 2595, 'ATL', 'ATL', 25),
+('2020-01-04', 'DL', 2602, 'ATL', 'ATL', -2),
+('2020-01-04', 'DL', 2668, 'JFK', 'JFK', 14),
+('2020-01-04', 'DL', 2799, 'ATL', 'ATL', -2),
+('2020-01-04', 'DL', 2945, 'DTW', 'DTW', -5),
+('2021-01-04', 'DL', 317, 'LAX', 'LAX', 1),
+('2021-01-04', 'DL', 416, 'ATL', 'ATL', -8),
+('2021-01-04', 'DL', 432, 'ATL', 'ATL', -1),
+('2021-01-04', 'DL', 440, 'ATL', 'ATL', -5),
+('2021-01-04', 'DL', 457, 'ATL', 'ATL', -2),
+('2021-01-04', 'DL', 464, 'ATL', 'ATL', -6),
+('2021-01-04', 'DL', 476, 'ATL', 'ATL', -6),
+('2021-01-04', 'DL', 777, 'SLC', 'SLC', 14),
+('2021-01-04', 'DL', 1043, 'MSP', 'MSP', -5),
+('2021-01-04', 'DL', 1108, 'MSP', 'MSP', -4),
+('2021-01-04', 'DL', 1559, 'DTW', 'DTW', -6),
+('2021-01-04', 'DL', 2006, 'DTW', 'DTW', -5);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2021-01-04', 'DL', 2022, 'MSP', 'MSP', -4),
+('2021-01-04', 'DL', 2226, 'ATL', 'ATL', 24),
+('2021-01-04', 'DL', 2276, 'DTW', 'DTW', -7),
+('2022-01-04', 'DL', 306, 'ATL', 'ATL', 58),
+('2022-01-04', 'DL', 307, 'ATL', 'ATL', 71),
+('2022-01-04', 'DL', 342, 'LAX', 'LAX', 7),
+('2022-01-04', 'DL', 361, 'ATL', 'ATL', 114),
+('2022-01-04', 'DL', 395, 'ATL', 'ATL', 40),
+('2022-01-04', 'DL', 418, 'ATL', 'ATL', 16),
+('2022-01-04', 'DL', 457, 'ATL', 'ATL', 36),
+('2022-01-04', 'DL', 464, 'ATL', 'ATL', 38),
+('2022-01-04', 'DL', 528, 'ATL', 'ATL', 261),
+('2022-01-04', 'DL', 538, 'ATL', 'ATL', 85),
+('2022-01-04', 'DL', 539, 'ATL', 'ATL', 32),
+('2022-01-04', 'DL', 760, 'SLC', 'SLC', 79),
+('2022-01-04', 'DL', 1343, 'MSP', 'MSP', 41),
+('2022-01-04', 'DL', 1465, 'MSP', 'MSP', 7),
+('2022-01-04', 'DL', 1530, 'DTW', 'DTW', 92),
+('2022-01-04', 'DL', 1570, 'DTW', 'DTW', 13),
+('2022-01-04', 'DL', 1637, 'DTW', 'DTW', 141),
+('2022-01-04', 'DL', 1740, 'MSP', 'MSP', 10),
+('2022-01-04', 'DL', 2244, 'MSP', 'MSP', 136),
+('2022-01-04', 'DL', 2675, 'MSP', 'MSP', 111),
+('2022-01-04', 'DL', 2885, 'DTW', 'DTW', 13),
+('2022-01-04', 'DL', 2995, 'DTW', 'DTW', 43),
+('2023-01-04', 'DL', 306, 'ATL', 'ATL', 10),
+('2023-01-04', 'DL', 342, 'LAX', 'LAX', 23),
+('2023-01-04', 'DL', 418, 'ATL', 'ATL', 36),
+('2023-01-04', 'DL', 457, 'ATL', 'ATL', 37),
+('2023-01-04', 'DL', 464, 'ATL', 'ATL', 166),
+('2023-01-04', 'DL', 472, 'SLC', 'SLC', 0),
+('2023-01-04', 'DL', 528, 'ATL', 'ATL', 132),
+('2023-01-04', 'DL', 560, 'ATL', 'ATL', 299),
+('2023-01-04', 'DL', 910, 'ATL', 'ATL', 0),
+('2023-01-04', 'DL', 1522, 'ATL', 'ATL', 18),
+('2023-01-04', 'DL', 1740, 'MSP', 'MSP', 0),
+('2023-01-04', 'DL', 2093, 'MSP', 'MSP', 0),
+('2023-01-04', 'DL', 2206, 'ATL', 'ATL', -4),
+('2023-01-04', 'DL', 2244, 'MSP', 'MSP', 21),
+('2023-01-04', 'DL', 2623, 'DTW', 'DTW', -3),
+('2023-01-04', 'DL', 2675, 'MSP', 'MSP', 0),
+('2023-01-04', 'DL', 2875, 'DTW', 'DTW', -10),
+('2023-01-04', 'DL', 2885, 'DTW', 'DTW', -8),
+('2023-01-04', 'DL', 2995, 'DTW', 'DTW', 5),
+('2020-01-05', 'DL', 474, 'ATL', 'ATL', -5),
+('2020-01-05', 'DL', 832, 'SLC', 'SLC', 1),
+('2020-01-05', 'DL', 839, 'ATL', 'ATL', -3),
+('2020-01-05', 'DL', 1139, 'ATL', 'ATL', 3),
+('2020-01-05', 'DL', 1144, 'DTW', 'DTW', -8),
+('2020-01-05', 'DL', 1368, 'MSP', 'MSP', -4),
+('2020-01-05', 'DL', 1421, 'DTW', 'DTW', -7),
+('2020-01-05', 'DL', 1464, 'MSP', 'MSP', -3),
+('2020-01-05', 'DL', 1515, 'MSP', 'MSP', -9),
+('2020-01-05', 'DL', 1589, 'DL', 'MSP', -5),
+('2020-01-05', 'DL', 1631, 'LAX', 'LAX', -2),
+('2020-01-05', 'DL', 1654, 'ATL', 'ATL', 0),
+('2020-01-05', 'DL', 1764, 'MSP', 'MSP', -5),
+('2020-01-05', 'DL', 1960, 'DTW', 'DTW', 2),
+('2020-01-05', 'DL', 2086, 'JFK', 'JFK', -4),
+('2020-01-05', 'DL', 2238, 'ATL', 'ATL', 0),
+('2020-01-05', 'DL', 2594, 'ATL', 'ATL', -2);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES
+('2020-01-05', 'DL', 2594, 'ATL', 'ATL', -2),
+('2020-01-05', 'DL', 2595, 'ATL', 'ATL', -6),
+('2020-01-05', 'DL', 2602, 'ATL', 'ATL', 10),
+('2020-01-05', 'DL', 2638, 'ATL', 'ATL', -1),
+('2020-01-05', 'DL', 2799, 'ATL', 'ATL', 0),
+('2020-01-05', 'DL', 2811, 'ATL', 'ATL', -8),
+('2020-01-05', 'DL', 2945, 'DTW', 'DTW', -7),
+('2021-01-05', 'DL', 317, 'LAX', 'LAX', 0),
+('2021-01-05', 'DL', 416, 'ATL', 'ATL', -7),
+('2021-01-05', 'DL', 432, 'ATL', 'ATL', -6),
+('2021-01-05', 'DL', 440, 'ATL', 'ATL', -12),
+('2021-01-05', 'DL', 457, 'ATL', 'ATL', -5),
+('2021-01-05', 'DL', 464, 'ATL', 'ATL', -6),
+('2021-01-05', 'DL', 777, 'SLC', 'SLC', -2),
+('2021-01-05', 'DL', 1559, 'DTW', 'DTW', -5),
+('2021-01-05', 'DL', 2006, 'DTW', 'DTW', -7),
+('2021-01-05', 'DL', 2226, 'ATL', 'ATL', -7),
+('2021-01-05', 'DL', 2276, 'DTW', 'DTW', 16),
+('2022-01-05', 'DL', 306, 'ATL', 'ATL', -2),
+('2022-01-05', 'DL', 307, 'ATL', 'ATL', 60),
+('2022-01-05', 'DL', 342, 'LAX', 'LAX', 118),
+('2022-01-05', 'DL', 361, 'ATL', 'ATL', 0),
+('2022-01-05', 'DL', 395, 'ATL', 'ATL', -2),
+('2022-01-05', 'DL', 418, 'ATL', 'ATL', 0),
+('2022-01-05', 'DL', 457, 'ATL', 'ATL', 8),
+('2022-01-05', 'DL', 459, 'ATL', 'ATL', 24),
+('2022-01-05', 'DL', 464, 'ATL', 'ATL', 18),
+('2022-01-05', 'DL', 528, 'ATL', 'ATL', -7),
+('2022-01-05', 'DL', 538, 'ATL', 'ATL', 19),
+('2022-01-05', 'DL', 760, 'SLC', 'SLC', 15),
+('2022-01-05', 'DL', 1343, 'MSP', 'MSP', 18),
+('2022-01-05', 'DL', 1530, 'DTW', 'DTW', -4),
+('2022-01-05', 'DL', 1637, 'DTW', 'DTW', -7),
+('2022-01-05', 'DL', 1740, 'MSP', 'MSP', 43),
+('2022-01-05', 'DL', 2244, 'MSP', 'MSP', 50),
+('2022-01-05', 'DL', 2289, 'MSP', 'MSP', 5),
+('2022-01-05', 'DL', 2623, 'DTW', 'DTW', 6),
+('2022-01-05', 'DL', 2660, 'ATL', 'ATL', 14),
+('2022-01-05', 'DL', 2675, 'MSP', 'MSP', -4),
+('2022-01-05', 'DL', 2885, 'DTW', 'DTW', -5),
+('2022-01-05', 'DL', 2995, 'DTW', 'DTW', -6),
+('2023-01-05', 'DL', 306, 'ATL', 'ATL', 0),
+('2023-01-05', 'DL', 342, 'LAX', 'LAX', -3),
+('2023-01-05', 'DL', 418, 'ATL', 'ATL', -3),
+('2023-01-05', 'DL', 457, 'ATL', 'ATL', -8),
+('2023-01-05', 'DL', 464, 'ATL', 'ATL', 32),
+('2023-01-05', 'DL', 472, 'SLC', 'SLC', -2),
+('2023-01-05', 'DL', 528, 'ATL', 'ATL', -8),
+('2023-01-05', 'DL', 560, 'ATL', 'ATL', 169),
+('2023-01-05', 'DL', 910, 'ATL', 'ATL', 582),
+('2023-01-05', 'DL', 1522, 'ATL', 'ATL', -2),
+('2023-01-05', 'DL', 1740, 'MSP', 'MSP', -1),
+('2023-01-05', 'DL', 2093, 'MSP', 'MSP', 66),
+('2023-01-05', 'DL', 2206, 'ATL', 'ATL', 1),
+('2023-01-05', 'DL', 2244, 'MSP', 'MSP', -10),
+('2023-01-05', 'DL', 2623, 'DTW', 'DTW', 39),
+('2023-01-05', 'DL', 2675, 'MSP', 'MSP', -1),
+('2023-01-05', 'DL', 2875, 'DTW', 'DTW', -4),
+('2023-01-05', 'DL', 2885, 'DTW', 'DTW', -5),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2023-01-05', 'DL', 2995, 'DTW', 'DTW', 65),
+('2020-01-06', 'DL', 839, 'ATL', 'ATL', -7),
+('2020-01-06', 'DL', 952, 'MSP', 'MSP', -15),
+('2020-01-06', 'DL', 1139, 'ATL', 'ATL', -3),
+('2020-01-06', 'DL', 1167, 'DTW', 'DTW', -6),
+('2020-01-06', 'DL', 1376, 'MSP', 'MSP', -14),
+('2020-01-06', 'DL', 1421, 'DTW', 'DTW', -7),
+('2020-01-06', 'DL', 1464, 'MSP', 'MSP', 20),
+('2020-01-06', 'DL', 1515, 'MSP', 'MSP', -8),
+('2020-01-06', 'DL', 1631, 'LAX', 'LAX', -3),
+('2020-01-06', 'DL', 1764, 'MSP', 'MSP', -7),
+('2020-01-06', 'DL', 1790, 'DTW', 'DTW', 16),
+('2020-01-06', 'DL', 1960, 'DTW', 'DTW', -11),
+('2020-01-06', 'DL', 1963, 'ATL', 'ATL', -6),
+('2020-01-06', 'DL', 2086, 'JFK', 'JFK', -6),
+('2020-01-06', 'DL', 2238, 'ATL', 'ATL', -3),
+('2020-01-06', 'DL', 2267, 'DTW', 'DTW', 4),
+('2020-01-06', 'DL', 2349, 'ATL', 'ATL', -2),
+('2020-01-06', 'DL', 2409, 'MSP', 'MSP', -9),
+('2020-01-06', 'DL', 2594, 'ATL', 'ATL', -8),
+('2020-01-06', 'DL', 2595, 'ATL', 'ATL', -3),
+('2020-01-06', 'DL', 2602, 'ATL', 'ATL', -5),
+('2020-01-06', 'DL', 2638, 'ATL', 'ATL', -3),
+('2020-01-06', 'DL', 2799, 'ATL', 'ATL', 14),
+('2020-01-06', 'DL', 2811, 'ATL', 'ATL', -5),
+('2020-01-06', 'DL', 2909, 'ATL', 'ATL', 0),
+('2020-01-06', 'DL', 2945, 'DTW', 'DTW', -10);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-06', 'DL', 2945, 'DTW', 'DTW', -10),
+('2021-01-06', 'DL', 317, 'LAX', 'LAX', -7),
+('2021-01-06', 'DL', 416, 'ATL', 'ATL', -9),
+('2021-01-06', 'DL', 432, 'ATL', 'ATL', -6),
+('2021-01-06', 'DL', 440, 'ATL', 'ATL', -7),
+('2021-01-06', 'DL', 457, 'ATL', 'ATL', -8),
+('2021-01-06', 'DL', 464, 'ATL', 'ATL', -6),
+('2021-01-06', 'DL', 777, 'SLC', 'SLC', -2),
+('2021-01-06', 'DL', 1559, 'DTW', 'DTW', -9),
+('2021-01-06', 'DL', 2006, 'DTW', 'DTW', -1),
+('2021-01-06', 'DL', 2226, 'ATL', 'ATL', -5),
+('2021-01-06', 'DL', 2276, 'DTW', 'DTW', -5),
+('2022-01-06', 'DL', 306, 'ATL', 'ATL', -5),
+('2022-01-06', 'DL', 307, 'ATL', 'ATL', -5),
+('2022-01-06', 'DL', 342, 'LAX', 'LAX', -2),
+('2022-01-06', 'DL', 361, 'ATL', 'ATL', -36),
+('2022-01-06', 'DL', 395, 'ATL', 'ATL', 0),
+('2022-01-06', 'DL', 418, 'ATL', 'ATL', 0),
+('2022-01-06', 'DL', 457, 'ATL', 'ATL', 1),
+('2022-01-06', 'DL', 459, 'ATL', 'ATL', -5),
+('2022-01-06', 'DL', 464, 'ATL', 'ATL', 4),
+('2022-01-06', 'DL', 528, 'ATL', 'ATL', 9),
+('2022-01-06', 'DL', 538, 'ATL', 'ATL', -8),
+('2022-01-06', 'DL', 760, 'SLC', 'SLC', 3),
+('2022-01-06', 'DL', 1343, 'MSP', 'MSP', 24),
+('2022-01-06', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-06', 'DL', 1637, 'DTW', 'DTW', 63),
+('2022-01-06', 'DL', 1740, 'MSP', 'MSP', -5),
+('2022-01-06', 'DL', 2244, 'MSP', 'MSP', -3),
+('2022-01-06', 'DL', 2289, 'MSP', 'MSP', -7),
+('2022-01-06', 'DL', 2623, 'DTW', 'DTW', -4),
+('2022-01-06', 'DL', 2660, 'ATL', 'ATL', 1),
+('2022-01-06', 'DL', 2675, 'MSP', 'MSP', 2),
+('2022-01-06', 'DL', 2885, 'DTW', 'DTW', -6),
+('2022-01-06', 'DL', 2995, 'DTW', 'DTW', -3),
+('2023-01-06', 'DL', 306, 'ATL', 'ATL', 4),
+('2023-01-06', 'DL', 342, 'LAX', 'LAX', -3),
+('2023-01-06', 'DL', 418, 'ATL', 'ATL', -1),
+('2023-01-06', 'DL', 457, 'ATL', 'ATL', -9),
+('2023-01-06', 'DL', 464, 'ATL', 'ATL', 9),
+('2023-01-06', 'DL', 472, 'SLC', 'SLC', 1),
+('2023-01-06', 'DL', 528, 'ATL', 'ATL', 2),
+('2023-01-06', 'DL', 560, 'ATL', 'ATL', 1),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2023-01-06', 'DL', 910, 'ATL', 'ATL', -10),
+('2023-01-06', 'DL', 1522, 'ATL', 'ATL', 8),
+('2023-01-06', 'DL', 1740, 'MSP', 'MSP', -8),
+('2023-01-06', 'DL', 2093, 'MSP', 'MSP', 45),
+('2023-01-06', 'DL', 2206, 'ATL', 'ATL', -5),
+('2023-01-06', 'DL', 2244, 'MSP', 'MSP', -5),
+('2023-01-06', 'DL', 2623, 'DTW', 'DTW', -5),
+('2023-01-06', 'DL', 2675, 'MSP', 'MSP', 20),
+('2023-01-06', 'DL', 2875, 'DTW', 'DTW', -10),
+('2023-01-06', 'DL', 2885, 'DTW', 'DTW', -5),
+('2023-01-06', 'DL', 2995, 'DTW', 'DTW', -1),
+('2020-01-07', 'DL', 431, 'DTW', 'DTW', -12),
+('2020-01-07', 'DL', 832, 'SLC', 'SLC', 7),
+('2020-01-07', 'DL', 839, 'ATL', 'ATL', -7),
+('2020-01-07', 'DL', 952, 'MSP', 'MSP', -12),
+('2020-01-07', 'DL', 1139, 'ATL', 'ATL', 20),
+('2020-01-07', 'DL', 1167, 'DTW', 'DTW', 32),
+('2020-01-07', 'DL', 1376, 'MSP', 'MSP', -5),
+('2020-01-07', 'DL', 1421, 'DTW', 'DTW', -6),
+('2020-01-07', 'DL', 1464, 'MSP', 'MSP', -15),
+('2020-01-07', 'DL', 1515, 'MSP', 'MSP', -2),
+('2020-01-07', 'DL', 1631, 'LAX', 'LAX', 0),
+('2020-01-07', 'DL', 1764, 'MSP', 'MSP', -11),
+('2020-01-07', 'DL', 1790, 'DTW', 'DTW', -8),
+('2020-01-07', 'DL', 1960, 'DTW', 'DTW', -11),
+('2020-01-07', 'DL', 1963, 'ATL', 'ATL', -5),
+('2020-01-07', 'DL', 2086, 'JFK', 'JFK', -7),
+('2020-01-07', 'DL', 2238, 'ATL', 'ATL', 5),
+('2020-01-07', 'DL', 2267, 'DTW', 'DTW', -7),
+('2020-01-07', 'DL', 2349, 'ATL', 'ATL', -4),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-07', 'DL', 2409, 'MSP', 'MSP', -3),
+('2020-01-07', 'DL', 2594, 'ATL', 'ATL', -4),
+('2020-01-07', 'DL', 2595, 'ATL', 'ATL', -5),
+('2020-01-07', 'DL', 2602, 'ATL', 'ATL', -10),
+('2020-01-07', 'DL', 2638, 'ATL', 'ATL', -7),
+('2020-01-07', 'DL', 2799, 'ATL', 'ATL', -6),
+('2020-01-07', 'DL', 2811, 'ATL', 'ATL', 13),
+('2020-01-07', 'DL', 2909, 'ATL', 'ATL', -8),
+('2020-01-07', 'DL', 2945, 'DTW', 'DTW', -6),
+('2021-01-07', 'DL', 317, 'LAX', 'LAX', -1),
+('2021-01-07', 'DL', 416, 'ATL', 'ATL', -2),
+('2021-01-07', 'DL', 432, 'ATL', 'ATL', -3),
+('2021-01-07', 'DL', 440, 'ATL', 'ATL', -5),
+('2021-01-07', 'DL', 457, 'ATL', 'ATL', -2),
+('2021-01-07', 'DL', 464, 'ATL', 'ATL', 25),
+('2021-01-07', 'DL', 476, 'ATL', 'ATL', -8),
+('2021-01-07', 'DL', 777, 'SLC', 'SLC', -2),
+('2021-01-07', 'DL', 1559, 'DTW', 'DTW', 5),
+('2021-01-07', 'DL', 2006, 'DTW', 'DTW', -2),
+('2021-01-07', 'DL', 2226, 'ATL', 'ATL', -1),
+('2021-01-07', 'DL', 2276, 'DTW', 'DTW', -7),
+('2022-01-07', 'DL', 306, 'ATL', 'ATL', -6),
+('2022-01-07', 'DL', 307, 'ATL', 'ATL', 0),
+('2022-01-07', 'DL', 342, 'LAX', 'LAX', -2),
+('2022-01-07', 'DL', 361, 'ATL', 'ATL', -5),
+('2022-01-07', 'DL', 395, 'ATL', 'ATL', -9),
+('2022-01-07', 'DL', 418, 'ATL', 'ATL', 6),
+('2022-01-07', 'DL', 457, 'ATL', 'ATL', -8),
+('2022-01-07', 'DL', 459, 'ATL', 'ATL', 0),
+('2022-01-07', 'DL', 464, 'ATL', 'ATL', -3),
+('2022-01-07', 'DL', 528, 'ATL', 'ATL', 0),
+('2022-01-07', 'DL', 538, 'ATL', 'ATL', -3),
+('2022-01-07', 'DL', 760, 'SLC', 'SLC', 5),
+('2022-01-07', 'DL', 1343, 'MSP', 'MSP', 16),
+('2022-01-07', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-07', 'DL', 1637, 'DTW', 'DTW', -16),
+('2022-01-07', 'DL', 1740, 'MSP', 'MSP', -6),
+('2022-01-07', 'DL', 2244, 'MSP', 'MSP', 4),
+('2022-01-07', 'DL', 2289, 'MSP', 'MSP', -2),
+('2022-01-07', 'DL', 2623, 'DTW', 'DTW', -6),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2022-01-07', 'DL', 2660, 'ATL', 'ATL', 59),
+('2022-01-07', 'DL', 2675, 'MSP', 'MSP', 31),
+('2022-01-07', 'DL', 2885, 'DTW', 'DTW', -5),
+('2022-01-07', 'DL', 2995, 'DTW', 'DTW', -4),
+('2023-01-07', 'DL', 306, 'ATL', 'ATL', 3),
+('2023-01-07', 'DL', 342, 'LAX', 'LAX', -2),
+('2023-01-07', 'DL', 418, 'ATL', 'ATL', 82),
+('2023-01-07', 'DL', 457, 'ATL', 'ATL', -5),
+('2023-01-07', 'DL', 464, 'ATL', 'ATL', -2),
+('2023-01-07', 'DL', 472, 'SLC', 'SLC', 92),
+('2023-01-07', 'DL', 528, 'ATL', 'ATL', -9),
+('2023-01-07', 'DL', 560, 'ATL', 'ATL', 53),
+('2023-01-07', 'DL', 910, 'ATL', 'ATL', -6),
+('2023-01-07', 'DL', 1522, 'ATL', 'ATL', -5),
+('2023-01-07', 'DL', 1740, 'MSP', 'MSP', -7),
+('2023-01-07', 'DL', 2093, 'MSP', 'MSP', -3),
+('2023-01-07', 'DL', 2244, 'MSP', 'MSP', 0),
+('2023-01-07', 'DL', 2623, 'DTW', 'DTW', 14),
+('2023-01-07', 'DL', 2675, 'MSP', 'MSP', -6),
+('2023-01-07', 'DL', 2875, 'DTW', 'DTW', 1),
+('2023-01-07', 'DL', 2885, 'DTW', 'DTW', 18),
+('2023-01-07', 'DL', 2995, 'DTW', 'DTW', -9),
+('2020-01-08', 'DL', 431, 'DTW', 'DTW', -15),
+('2020-01-08', 'DL', 832, 'SLC', 'SLC', -7),
+('2020-01-08', 'DL', 839, 'ATL', 'ATL', -5),
+('2020-01-08', 'DL', 952, 'MSP', 'MSP', -9),
+('2020-01-08', 'DL', 1139, 'ATL', 'ATL', -7),
+('2020-01-08', 'DL', 1167, 'DTW', 'DTW', -2),
+('2020-01-08', 'DL', 1376, 'MSP', 'MSP', -7),
+('2020-01-08', 'DL', 1421, 'DTW', 'DTW', -2),
+('2020-01-08', 'DL', 1464, 'MSP', 'MSP', -11),
+('2020-01-08', 'DL', 1515, 'MSP', 'MSP', -3),
+('2020-01-08', 'DL', 1631, 'LAX', 'LAX', -6),
+('2020-01-08', 'DL', 1764, 'MSP', 'MSP', -8),
+('2020-01-08', 'DL', 1790, 'DTW', 'DTW', -8),
+('2020-01-08', 'DL', 1960, 'DTW', 'DTW', -4),
+('2020-01-08', 'DL', 1963, 'ATL', 'ATL', -4),
+('2020-01-08', 'DL', 2086, 'JFK', 'JFK', -10),
+('2020-01-08', 'DL', 2238, 'ATL', 'ATL', -11),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-08', 'DL', 2267, 'DTW', 'DTW', -5),
+('2020-01-08', 'DL', 2349, 'ATL', 'ATL', -7),
+('2020-01-08', 'DL', 2409, 'MSP', 'MSP', -6),
+('2020-01-08', 'DL', 2594, 'ATL', 'ATL', -4),
+('2020-01-08', 'DL', 2595, 'ATL', 'ATL', -7),
+('2020-01-08', 'DL', 2602, 'ATL', 'ATL', -7),
+('2020-01-08', 'DL', 2638, 'ATL', 'ATL', -11),
+('2020-01-08', 'DL', 2799, 'ATL', 'ATL', -7),
+('2020-01-08', 'DL', 2811, 'ATL', 'ATL', -2),
+('2020-01-08', 'DL', 2909, 'ATL', 'ATL', -16),
+('2020-01-08', 'DL', 2945, 'DTW', 'DTW', -11),
+('2021-01-08', 'DL', 317, 'LAX', 'LAX', -1),
+('2021-01-08', 'DL', 416, 'ATL', 'ATL', -7),
+('2021-01-08', 'DL', 432, 'ATL', 'ATL', -5),
+('2021-01-08', 'DL', 440, 'ATL', 'ATL', 59),
+('2021-01-08', 'DL', 457, 'ATL', 'ATL', -5),
+('2021-01-08', 'DL', 464, 'ATL', 'ATL', 41),
+('2021-01-08', 'DL', 476, 'ATL', 'ATL', 97),
+('2021-01-08', 'DL', 777, 'SLC', 'SLC', -4),
+('2021-01-08', 'DL', 1559, 'DTW', 'DTW', -6),
+('2021-01-08', 'DL', 2006, 'DTW', 'DTW', -5),
+('2021-01-08', 'DL', 2226, 'ATL', 'ATL', -5),
+('2021-01-08', 'DL', 2276, 'DTW', 'DTW', -7),
+('2022-01-08', 'DL', 306, 'ATL', 'ATL', -3),
+('2022-01-08', 'DL', 307, 'ATL', 'ATL', -10),
+('2022-01-08', 'DL', 342, 'LAX', 'LAX', 1),
+('2022-01-08', 'DL', 361, 'ATL', 'ATL', -5),
+('2022-01-08', 'DL', 418, 'ATL', 'ATL', -3),
+('2022-01-08', 'DL', 457, 'ATL', 'ATL', 0),
+('2022-01-08', 'DL', 459, 'ATL', 'ATL', -11),
+('2022-01-08', 'DL', 464, 'ATL', 'ATL', -7),
+('2022-01-08', 'DL', 528, 'ATL', 'ATL', -2),
+('2022-01-08', 'DL', 538, 'ATL', 'ATL', -6),
+('2022-01-08', 'DL', 760, 'SLC', 'SLC', 3),
+('2022-01-08', 'DL', 1343, 'MSP', 'MSP', -8),
+('2022-01-08', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-08', 'DL', 1637, 'DTW', 'DTW', -11),
+('2022-01-08', 'DL', 1740, 'MSP', 'MSP', -8),
+('2022-01-08', 'DL', 2244, 'MSP', 'MSP', -6),
+('2022-01-08', 'DL', 2289, 'MSP', 'MSP', -6),
+('2022-01-08', 'DL', 2623, 'DTW', 'DTW', -10),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2022-01-08', 'DL', 2660, 'ATL', 'ATL', 15),
+('2022-01-08', 'DL', 2675, 'MSP', 'MSP', 26),
+('2022-01-08', 'DL', 2885, 'DTW', 'DTW', -7),
+('2022-01-08', 'DL', 2995, 'DTW', 'DTW', -3),
+('2023-01-08', 'DL', 306, 'ATL', 'ATL', -2),
+('2023-01-08', 'DL', 342, 'LAX', 'LAX', 73),
+('2023-01-08', 'DL', 418, 'ATL', 'ATL', 12),
+('2023-01-08', 'DL', 457, 'ATL', 'ATL', 2),
+('2023-01-08', 'DL', 464, 'ATL', 'ATL', 8),
+('2023-01-08', 'DL', 472, 'SLC', 'SLC', 20),
+('2023-01-08', 'DL', 528, 'ATL', 'ATL', -6),
+('2023-01-08', 'DL', 560, 'ATL', 'ATL', 3),
+('2023-01-08', 'DL', 910, 'ATL', 'ATL', -3),
+('2023-01-08', 'DL', 1343, 'MSP', 'MSP', 7),
+('2023-01-08', 'DL', 1522, 'ATL', 'ATL', 2),
+('2023-01-08', 'DL', 1637, 'DTW', 'DTW', -4),
+('2023-01-08', 'DL', 1740, 'MSP', 'MSP', -6),
+('2023-01-08', 'DL', 2093, 'MSP', 'MSP', 38),
+('2023-01-08', 'DL', 2206, 'ATL', 'ATL', 62),
+('2023-01-08', 'DL', 2244, 'MSP', 'MSP', 9),
+('2023-01-08', 'DL', 2327, 'ATL', 'ATL', 33),
+('2023-01-08', 'DL', 2623, 'DTW', 'DTW', -7),
+('2023-01-08', 'DL', 2675, 'MSP', 'MSP', -8),
+('2023-01-08', 'DL', 2875, 'DTW', 'DTW', 7),
+('2023-01-08', 'DL', 2885, 'DTW', 'DTW', -12),
+('2023-01-08', 'DL', 2995, 'DTW', 'DTW', -6),
+('2020-01-09', 'DL', 431, 'DTW', 'DTW', -2),
+('2020-01-09', 'DL', 832, 'SLC', 'SLC', -5),
+('2020-01-09', 'DL', 839, 'ATL', 'ATL', -3),
+('2020-01-09', 'DL', 952, 'MSP', 'MSP', -8),
+('2020-01-09', 'DL', 1139, 'ATL', 'ATL', -7),
+('2020-01-09', 'DL', 1167, 'DTW', 'DTW', -4),
+('2020-01-09', 'DL', 1376, 'MSP', 'MSP', 79),
+('2020-01-09', 'DL', 1421, 'DTW', 'DTW', -5),
+('2020-01-09', 'DL', 1464, 'MSP', 'MSP', -7),
+('2020-01-09', 'DL', 1515, 'MSP', 'MSP', -5),
+('2020-01-09', 'DL', 1631, 'LAX', 'LAX', 0),
+('2020-01-09', 'DL', 1764, 'MSP', 'MSP', -6),
+('2020-01-09', 'DL', 1790, 'DTW', 'DTW', -6),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-09', 'DL', 1963, 'ATL', 'ATL', -4),
+('2020-01-09', 'DL', 2086, 'JFK', 'JFK', -6),
+('2020-01-09', 'DL', 2238, 'ATL', 'ATL', 0),
+('2020-01-09', 'DL', 2267, 'DTW', 'DTW', -5),
+('2020-01-09', 'DL', 2349, 'ATL', 'ATL', 1),
+('2020-01-09', 'DL', 2409, 'MSP', 'MSP', -3),
+('2020-01-09', 'DL', 2594, 'ATL', 'ATL', -8),
+('2020-01-09', 'DL', 2595, 'ATL', 'ATL', -8),
+('2020-01-09', 'DL', 2602, 'ATL', 'ATL', -4),
+('2020-01-09', 'DL', 2638, 'ATL', 'ATL', -6),
+('2020-01-09', 'DL', 2799, 'ATL', 'ATL', -3),
+('2020-01-09', 'DL', 2811, 'ATL', 'ATL', 0),
+('2020-01-09', 'DL', 2909, 'ATL', 'ATL', -10),
+('2020-01-09', 'DL', 2945, 'DTW', 'DTW', -8),
+('2021-01-09', 'DL', 317, 'LAX', 'LAX', -5),
+('2021-01-09', 'DL', 416, 'ATL', 'ATL', -8),
+('2021-01-09', 'DL', 432, 'ATL', 'ATL', -7),
+('2021-01-09', 'DL', 440, 'ATL', 'ATL', -9),
+('2021-01-09', 'DL', 457, 'ATL', 'ATL', -4),
+('2021-01-09', 'DL', 464, 'ATL', 'ATL', -1),
+('2021-01-09', 'DL', 777, 'SLC', 'SLC', 2),
+('2021-01-09', 'DL', 1559, 'DTW', 'DTW', -8),
+('2021-01-09', 'DL', 2006, 'DTW', 'DTW', -6),
+('2021-01-09', 'DL', 2226, 'ATL', 'ATL', 12),
+('2022-01-09', 'DL', 306, 'ATL', 'ATL', -4),
+('2022-01-09', 'DL', 307, 'ATL', 'ATL', -5),
+('2022-01-09', 'DL', 342, 'LAX', 'LAX', -3),
+('2022-01-09', 'DL', 361, 'ATL', 'ATL', -5),
+('2022-01-09', 'DL', 395, 'ATL', 'ATL', 0),
+('2022-01-09', 'DL', 418, 'ATL', 'ATL', 13),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2022-01-09', 'DL', 459, 'ATL', 'ATL', -6),
+('2022-01-09', 'DL', 464, 'ATL', 'ATL', -3),
+('2022-01-09', 'DL', 528, 'ATL', 'ATL', -4),
+('2022-01-09', 'DL', 538, 'ATL', 'ATL', 4),
+('2022-01-09', 'DL', 760, 'SLC', 'SLC', 0),
+('2022-01-09', 'DL', 1343, 'MSP', 'MSP', 34),
+('2022-01-09', 'DL', 1530, 'DTW', 'DTW', -6),
+('2022-01-09', 'DL', 1637, 'DTW', 'DTW', -16),
+('2022-01-09', 'DL', 1740, 'MSP', 'MSP', -9),
+('2022-01-09', 'DL', 2244, 'MSP', 'MSP', -6),
+('2022-01-09', 'DL', 2289, 'MSP', 'MSP', -3),
+('2022-01-09', 'DL', 2623, 'DTW', 'DTW', -3),
+('2022-01-09', 'DL', 2660, 'ATL', 'ATL', -4),
+('2022-01-09', 'DL', 2675, 'MSP', 'MSP', -6),
+('2022-01-09', 'DL', 2885, 'DTW', 'DTW', 14),
+('2022-01-09', 'DL', 2995, 'DTW', 'DTW', -6),
+('2023-01-09', 'DL', 316, 'ATL', 'ATL', -2),
+('2023-01-09', 'DL', 380, 'LAX', 'LAX', 7),
+('2023-01-09', 'DL', 392, 'ATL', 'ATL', -6),
+('2023-01-09', 'DL', 410, 'ATL', 'ATL', -1),
+('2023-01-09', 'DL', 455, 'ATL', 'ATL', -8),
+('2023-01-09', 'DL', 513, 'ATL', 'ATL', 10),
+('2023-01-09', 'DL', 665, 'ATL', 'ATL', -6),
+('2023-01-09', 'DL', 683, 'SLC', 'SLC', -3),
+('2023-01-09', 'DL', 687, 'ATL', 'ATL', -4),
+('2023-01-09', 'DL', 759, 'ATL', 'ATL', -3),
+('2023-01-09', 'DL', 967, 'ATL', 'ATL', -8),
+('2023-01-09', 'DL', 972, 'ATL', 'ATL', -10),
+('2023-01-09', 'DL', 1237, 'MSP', 'MSP', -7),
+('2023-01-09', 'DL', 1442, 'DTW', 'DTW', -7),
+('2023-01-09', 'DL', 2309, 'MSP', 'MSP', -6),
+('2023-01-09', 'DL', 2436, 'MSP', 'MSP', -2),
+('2023-01-09', 'DL', 2442, 'MSP', 'MSP', -8),
+('2023-01-09', 'DL', 2476, 'DTW', 'DTW', 0),
+('2023-01-09', 'DL', 2560, 'MSP', 'MSP', -13),
+('2023-01-09', 'DL', 2676, 'DTW', 'DTW', 37),
+('2023-01-09', 'DL', 2832, 'ATL', 'ATL', -3),
+('2023-01-09', 'DL', 2847, 'DTW', 'DTW', -10),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-10', 'DL', 431, 'DTW', 'DTW', -10),
+('2020-01-10', 'DL', 832, 'SLC', 'SLC', -4),
+('2020-01-10', 'DL', 839, 'ATL', 'ATL', -3),
+('2020-01-10', 'DL', 952, 'MSP', 'MSP', -12),
+('2020-01-10', 'DL', 1139, 'ATL', 'ATL', -6),
+('2020-01-10', 'DL', 1167, 'DTW', 'DTW', 4),
+('2020-01-10', 'DL', 1376, 'MSP', 'MSP', -4),
+('2020-01-10', 'DL', 1421, 'DTW', 'DTW', -10),
+('2020-01-10', 'DL', 1464, 'MSP', 'MSP', -3),
+('2020-01-10', 'DL', 1515, 'MSP', 'MSP', -8),
+('2020-01-10', 'DL', 1631, 'LAX', 'LAX', -4),
+('2020-01-10', 'DL', 1764, 'MSP', 'MSP', -8),
+('2020-01-10', 'DL', 1790, 'DTW', 'DTW', 12),
+('2020-01-10', 'DL', 1960, 'DTW', 'DTW', -8),
+('2020-01-10', 'DL', 1963, 'ATL', 'ATL', -1),
+('2020-01-10', 'DL', 2086, 'JFK', 'JFK', -7),
+('2020-01-10', 'DL', 2238, 'ATL', 'ATL', -5),
+('2020-01-10', 'DL', 2267, 'DTW', 'DTW', -10),
+('2020-01-10', 'DL', 2349, 'ATL', 'ATL', -2),
+('2020-01-10', 'DL', 2409, 'MSP', 'MSP', -5),
+('2020-01-10', 'DL', 2594, 'ATL', 'ATL', -8),
+('2020-01-10', 'DL', 2595, 'ATL', 'ATL', -5),
+('2020-01-10', 'DL', 2602, 'ATL', 'ATL', -6),
+('2020-01-10', 'DL', 2638, 'ATL', 'ATL', -2),
+('2020-01-10', 'DL', 2799, 'ATL', 'ATL', -13),
+('2020-01-10', 'DL', 2811, 'ATL', 'ATL', -7),
+('2020-01-10', 'DL', 2909, 'ATL', 'ATL', -5),
+('2020-01-10', 'DL', 2945, 'DTW', 'DTW', -4),
+('2021-01-10', 'DL', 317, 'LAX', 'LAX', -2),
+('2021-01-10', 'DL', 416, 'ATL', 'ATL', -7),
+('2021-01-10', 'DL', 432, 'ATL', 'ATL', 80),
+('2021-01-10', 'DL', 440, 'ATL', 'ATL', -7),
+('2021-01-10', 'DL', 457, 'ATL', 'ATL', -6),
+('2021-01-10', 'DL', 464, 'ATL', 'ATL', -5),
+('2021-01-10', 'DL', 476, 'ATL', 'ATL', -7),
+('2021-01-10', 'DL', 777, 'SLC', 'SLC', -6),
+('2021-01-10', 'DL', 1559, 'DTW', 'DTW', -4),
+('2021-01-10', 'DL', 2006, 'DTW', 'DTW', -8),
+('2021-01-10', 'DL', 2226, 'ATL', 'ATL', -3),
+('2021-01-10', 'DL', 2276, 'DTW', 'DTW', -13),
+('2022-01-10', 'DL', 306, 'ATL', 'ATL', -3),
+('2022-01-10', 'DL', 307, 'ATL', 'ATL', 20),
+('2022-01-10', 'DL', 342, 'LAX', 'LAX', -6),
+('2022-01-10', 'DL', 361, 'ATL', 'ATL', -6),
+('2022-01-10', 'DL', 395, 'ATL', 'ATL', -6),
+('2022-01-10', 'DL', 418, 'ATL', 'ATL', -4),
+('2022-01-10', 'DL', 457, 'ATL', 'ATL', -4),
+('2022-01-10', 'DL', 459, 'ATL', 'ATL', -1),
+('2022-01-10', 'DL', 464, 'ATL', 'ATL', -5),
+('2022-01-10', 'DL', 528, 'ATL', 'ATL', -3),
+('2022-01-10', 'DL', 538, 'ATL', 'ATL', -9),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2022-01-10', 'DL', 1343, 'MSP', 'MSP', -10),
+('2022-01-10', 'DL', 1530, 'DTW', 'DTW', -6),
+('2022-01-10', 'DL', 1637, 'DTW', 'DTW', -5),
+('2022-01-10', 'DL', 1740, 'MSP', 'MSP', -2),
+('2022-01-10', 'DL', 2244, 'MSP', 'MSP', -8),
+('2022-01-10', 'DL', 2289, 'MSP', 'MSP', -2),
+('2022-01-10', 'DL', 2623, 'DTW', 'DTW', -5),
+('2022-01-10', 'DL', 2660, 'ATL', 'ATL', -4),
+('2022-01-10', 'DL', 2675, 'MSP', 'MSP', -4),
+('2022-01-10', 'DL', 2885, 'DTW', 'DTW', -4),
+('2022-01-10', 'DL', 2995, 'DTW', 'DTW', -9),
+('2023-01-10', 'DL', 316, 'ATL', 'ATL', -8),
+('2023-01-10', 'DL', 380, 'LAX', 'LAX', -4),
+('2023-01-10', 'DL', 392, 'ATL', 'ATL', -6),
+('2023-01-10', 'DL', 410, 'ATL', 'ATL', 2),
+('2023-01-10', 'DL', 455, 'ATL', 'ATL', 51),
+('2023-01-10', 'DL', 513, 'ATL', 'ATL', -6),
+('2023-01-10', 'DL', 665, 'ATL', 'ATL', -4),
+('2023-01-10', 'DL', 683, 'SLC', 'SLC', -5),
+('2023-01-10', 'DL', 687, 'ATL', 'ATL', -13),
+('2023-01-10', 'DL', 759, 'ATL', 'ATL', 1),
+('2023-01-10', 'DL', 967, 'ATL', 'ATL', -6),
+('2023-01-10', 'DL', 972, 'ATL', 'ATL', 8),
+('2023-01-10', 'DL', 1237, 'MSP', 'MSP', -8),
+('2023-01-10', 'DL', 1442, 'DTW', 'DTW', -8),
+('2023-01-10', 'DL', 2309, 'MSP', 'MSP', -8),
+('2023-01-10', 'DL', 2436, 'MSP', 'MSP', -3),
+('2023-01-10', 'DL', 2442, 'MSP', 'MSP', -5),
+('2023-01-10', 'DL', 2476, 'DTW', 'DTW', -4),
+('2023-01-10', 'DL', 2560, 'MSP', 'MSP', -6),
+('2023-01-10', 'DL', 2676, 'DTW', 'DTW', -9),
+('2023-01-10', 'DL', 2832, 'ATL', 'ATL', -5),
+('2023-01-10', 'DL', 2847, 'DTW', 'DTW', -4),
+('2023-01-10', 'DL', 2849, 'DTW', 'DTW', 7),
+('2020-01-11', 'DL', 832, 'SLC', 'SLC', -5),
+('2020-01-11', 'DL', 839, 'ATL', 'ATL', -5),
+('2020-01-11', 'DL', 1139, 'ATL', 'ATL', -8),
+('2020-01-11', 'DL', 1167, 'DTW', 'DTW', -16),
+('2020-01-11', 'DL', 1376, 'MSP', 'MSP', -5),
+('2020-01-11', 'DL', 1421, 'DTW', 'DTW', -6),
+('2020-01-11', 'DL', 1464, 'MSP', 'MSP', -7),
+('2020-01-11', 'DL', 1631, 'LAX', 'LAX', -2),
+('2020-01-11', 'DL', 1764, 'MSP', 'MSP', -1),
+('2020-01-11', 'DL', 1960, 'DTW', 'DTW', -6),
+('2020-01-11', 'DL', 1963, 'ATL', 'ATL', 103),
+('2020-01-11', 'DL', 2086, 'JFK', 'JFK', -5),
+('2020-01-11', 'DL', 2349, 'ATL', 'ATL', 44),
+('2020-01-11', 'DL', 2594, 'ATL', 'ATL', -5),
+('2020-01-11', 'DL', 2602, 'ATL', 'ATL', -5),
+('2020-01-11', 'DL', 2799, 'ATL', 'ATL', -5);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2020-01-11', 'DL', 2799, 'ATL', 'ATL', -5),
+('2020-01-11', 'DL', 2811, 'ATL', 'ATL', 9),
+('2020-01-11', 'DL', 2945, 'DTW', 'DTW', -6),
+('2021-01-11', 'DL', 317, 'LAX', 'LAX', -5),
+('2021-01-11', 'DL', 416, 'ATL', 'ATL', -5),
+('2021-01-11', 'DL', 432, 'ATL', 'ATL', -8),
+('2021-01-11', 'DL', 440, 'ATL', 'ATL', -6),
+('2021-01-11', 'DL', 457, 'ATL', 'ATL', -6),
+('2021-01-11', 'DL', 464, 'ATL', 'ATL', -7),
+('2021-01-11', 'DL', 476, 'ATL', 'ATL', -4),
+('2021-01-11', 'DL', 777, 'SLC', 'SLC', -10),
+('2021-01-11', 'DL', 1559, 'DTW', 'DTW', -6),
+('2021-01-11', 'DL', 2006, 'DTW', 'DTW', -6),
+('2021-01-11', 'DL', 2226, 'ATL', 'ATL', -2),
+('2021-01-11', 'DL', 2276, 'DTW', 'DTW', -14),
+('2022-01-11', 'DL', 306, 'ATL', 'ATL', -8),
+('2022-01-11', 'DL', 307, 'ATL', 'ATL', -3),
+('2022-01-11', 'DL', 342, 'LAX', 'LAX', 5),
+('2022-01-11', 'DL', 361, 'ATL', 'ATL', -5),
+('2022-01-11', 'DL', 395, 'ATL', 'ATL', -1),
+('2022-01-11', 'DL', 418, 'ATL', 'ATL', -5),
+('2022-01-11', 'DL', 457, 'ATL', 'ATL', -1),
+('2022-01-11', 'DL', 459, 'ATL', 'ATL', -5),
+('2022-01-11', 'DL', 464, 'ATL', 'ATL', -11),
+('2022-01-11', 'DL', 528, 'ATL', 'ATL', -5),
+('2022-01-11', 'DL', 538, 'ATL', 'ATL', -10),
+('2022-01-11', 'DL', 760, 'SLC', 'SLC', -6),
+('2022-01-11', 'DL', 1343, 'MSP', 'MSP', -8),
+('2022-01-11', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-11', 'DL', 1637, 'DTW', 'DTW', 18),
+('2022-01-11', 'DL', 1740, 'MSP', 'MSP', 15),
+('2022-01-11', 'DL', 2244, 'MSP', 'MSP', -4),
+('2022-01-11', 'DL', 2289, 'MSP', 'MSP', -9),
+('2022-01-11', 'DL', 2623, 'DTW', 'DTW', -14),
+('2022-01-11', 'DL', 2660, 'ATL', 'ATL', 0),
+('2022-01-11', 'DL', 2675, 'MSP', 'MSP', 0),
+('2022-01-11', 'DL', 2885, 'DTW', 'DTW', -1),
+('2022-01-11', 'DL', 2995, 'DTW', 'DTW', -10),
+('2023-01-11', 'DL', 316, 'ATL', 'ATL', 46),
+('2023-01-11', 'DL', 380, 'LAX', 'LAX', -1),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2023-01-11', 'DL', 392, 'ATL', 'ATL', 126),
+('2023-01-11', 'DL', 410, 'ATL', 'ATL', 208),
+('2023-01-11', 'DL', 455, 'ATL', 'ATL', 35),
+('2023-01-11', 'DL', 513, 'ATL', 'ATL', 2),
+('2023-01-11', 'DL', 665, 'ATL', 'ATL', 0),
+('2023-01-11', 'DL', 683, 'SLC', 'SLC', 69),
+('2023-01-11', 'DL', 687, 'ATL', 'ATL', 48),
+('2023-01-11', 'DL', 759, 'ATL', 'ATL', 178),
+('2023-01-11', 'DL', 967, 'ATL', 'ATL', 213),
+('2023-01-11', 'DL', 972, 'ATL', 'ATL', 156),
+('2023-01-11', 'DL', 1237, 'MSP', 'MSP', 90),
+('2023-01-11', 'DL', 1442, 'DTW', 'DTW', -7),
+('2023-01-11', 'DL', 2309, 'MSP', 'MSP', 138),
+('2023-01-11', 'DL', 2436, 'MSP', 'MSP', 27),
+('2023-01-11', 'DL', 2442, 'MSP', 'MSP', 47),
+('2023-01-11', 'DL', 2476, 'DTW', 'DTW', 113),
+('2023-01-11', 'DL', 2560, 'MSP', 'MSP', -4),
+('2023-01-11', 'DL', 2676, 'DTW', 'DTW', 43),
+('2023-01-11', 'DL', 2832, 'ATL', 'ATL', 105),
+('2023-01-11', 'DL', 2847, 'DTW', 'DTW', 29),
+('2023-01-11', 'DL', 2849, 'DTW', 'DTW', 108),
+('2020-01-12', 'DL', 431, 'DTW', 'DTW', 0),
+('2020-01-12', 'DL', 832, 'SLC', 'SLC', 42),
+('2020-01-12', 'DL', 839, 'ATL', 'ATL', -10),
+('2020-01-12', 'DL', 952, 'MSP', 'MSP', -7),
+('2020-01-12', 'DL', 1139, 'ATL', 'ATL', -5),
+('2020-01-12', 'DL', 1167, 'DTW', 'DTW', 57),
+('2020-01-12', 'DL', 1464, 'MSP', 'MSP', -4),
+('2020-01-12', 'DL', 1515, 'MSP', 'MSP', -8),
+('2020-01-12', 'DL', 1631, 'LAX', 'LAX', -7),
+('2020-01-12', 'DL', 1764, 'MSP', 'MSP', -5),
+('2020-01-12', 'DL', 1790, 'DTW', 'DTW', -5),
+('2020-01-12', 'DL', 1960, 'DTW', 'DTW', -4),
+('2020-01-12', 'DL', 1963, 'ATL', 'ATL', -2),
+('2020-01-12', 'DL', 2086, 'JFK', 'JFK', -7),
+('2020-01-12', 'DL', 2238, 'ATL', 'ATL', -9),
+('2020-01-12', 'DL', 2267, 'DTW', 'DTW', -7),
+('2020-01-12', 'DL', 2349, 'ATL', 'ATL', -4),
+('2020-01-12', 'DL', 2409, 'MSP', 'MSP', -2),
+('2020-01-12', 'DL', 2594, 'ATL', 'ATL', -5),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2020-01-12', 'DL', 2602, 'ATL', 'ATL', -4),
+('2020-01-12', 'DL', 2638, 'ATL', 'ATL', -5),
+('2020-01-12', 'DL', 2799, 'ATL', 'ATL', -1),
+('2020-01-12', 'DL', 2811, 'ATL', 'ATL', -6),
+('2020-01-12', 'DL', 2909, 'ATL', 'ATL', -7),
+('2020-01-12', 'DL', 2945, 'DTW', 'DTW', -8),
+('2021-01-12', 'DL', 317, 'LAX', 'LAX', -6),
+('2021-01-12', 'DL', 416, 'ATL', 'ATL', -3),
+('2021-01-12', 'DL', 432, 'ATL', 'ATL', -7),
+('2021-01-12', 'DL', 440, 'ATL', 'ATL', -6),
+('2021-01-12', 'DL', 457, 'ATL', 'ATL', -7),
+('2021-01-12', 'DL', 464, 'ATL', 'ATL', -4),
+('2021-01-12', 'DL', 777, 'SLC', 'SLC', -7),
+('2021-01-12', 'DL', 1559, 'DTW', 'DTW', -6),
+('2021-01-12', 'DL', 2006, 'DTW', 'DTW', -6),
+('2021-01-12', 'DL', 2226, 'ATL', 'ATL', -7),
+('2021-01-12', 'DL', 2276, 'DTW', 'DTW', -6),
+('2022-01-12', 'DL', 306, 'ATL', 'ATL', -4),
+('2022-01-12', 'DL', 307, 'ATL', 'ATL', -7),
+('2022-01-12', 'DL', 342, 'LAX', 'LAX', 64),
+('2022-01-12', 'DL', 361, 'ATL', 'ATL', -4),
+('2022-01-12', 'DL', 395, 'ATL', 'ATL', -3),
+('2022-01-12', 'DL', 418, 'ATL', 'ATL', 93),
+('2022-01-12', 'DL', 457, 'ATL', 'ATL', 9),
+('2022-01-12', 'DL', 459, 'ATL', 'ATL', 9),
+('2022-01-12', 'DL', 464, 'ATL', 'ATL', 27),
+('2022-01-12', 'DL', 528, 'ATL', 'ATL', -4),
+('2022-01-12', 'DL', 538, 'ATL', 'ATL', -8),
+('2022-01-12', 'DL', 760, 'SLC', 'SLC', -3),
+('2022-01-12', 'DL', 1343, 'MSP', 'MSP', 96),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2022-01-12', 'DL', 1530, 'DTW', 'DTW', -5),
+('2022-01-12', 'DL', 1637, 'DTW', 'DTW', -3),
+('2022-01-12', 'DL', 1740, 'MSP', 'MSP', -9),
+('2022-01-12', 'DL', 2244, 'MSP', 'MSP', -8),
+('2022-01-12', 'DL', 2289, 'MSP', 'MSP', -11),
+('2022-01-12', 'DL', 2623, 'DTW', 'DTW', -4),
+('2022-01-12', 'DL', 2660, 'ATL', 'ATL', 92),
+('2022-01-12', 'DL', 2675, 'MSP', 'MSP', -6),
+('2022-01-12', 'DL', 2885, 'DTW', 'DTW', -4),
+('2022-01-12', 'DL', 2995, 'DTW', 'DTW', -5),
+('2023-01-12', 'DL', 316, 'ATL', 'ATL', -8),
+('2023-01-12', 'DL', 380, 'LAX', 'LAX', 19),
+('2023-01-12', 'DL', 392, 'ATL', 'ATL', 36),
+('2023-01-12', 'DL', 410, 'ATL', 'ATL', 13),
+('2023-01-12', 'DL', 455, 'ATL', 'ATL', 22),
+('2023-01-12', 'DL', 513, 'ATL', 'ATL', -1),
+('2023-01-12', 'DL', 665, 'ATL', 'ATL', 306),
+('2023-01-12', 'DL', 683, 'SLC', 'SLC', 4),
+('2023-01-12', 'DL', 687, 'ATL', 'ATL', 0),
+('2023-01-12', 'DL', 759, 'ATL', 'ATL', 160),
+('2023-01-12', 'DL', 967, 'ATL', 'ATL', 1),
+('2023-01-12', 'DL', 972, 'ATL', 'ATL', 1),
+('2023-01-12', 'DL', 1237, 'MSP', 'MSP', -8),
+('2023-01-12', 'DL', 1442, 'DTW', 'DTW', -2),
+('2023-01-12', 'DL', 2309, 'MSP', 'MSP', -5),
+('2023-01-12', 'DL', 2436, 'MSP', 'MSP', 7),
+('2023-01-12', 'DL', 2442, 'MSP', 'MSP', -4),
+('2023-01-12', 'DL', 2476, 'DTW', 'DTW', 6),
+('2023-01-12', 'DL', 2560, 'MSP', 'MSP', -7),
+('2023-01-12', 'DL', 2676, 'DTW', 'DTW', -5),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2023-01-12', 'DL', 2832, 'ATL', 'ATL', 11),
+('2023-01-12', 'DL', 2847, 'DTW', 'DTW', -7),
+('2023-01-12', 'DL', 2849, 'DTW', 'DTW', -6),
+('2020-01-13', 'DL', 431, 'DTW', 'DTW', -10),
+('2020-01-13', 'DL', 832, 'SLC', 'SLC', -3),
+('2020-01-13', 'DL', 839, 'ATL', 'ATL', -7),
+('2020-01-13', 'DL', 952, 'MSP', 'MSP', -13),
+('2020-01-13', 'DL', 1139, 'ATL', 'ATL', 14),
+('2020-01-13', 'DL', 1167, 'DTW', 'DTW', -5),
+('2020-01-13', 'DL', 1376, 'MSP', 'MSP', -6),
+('2020-01-13', 'DL', 1421, 'DTW', 'DTW', -5),
+('2020-01-13', 'DL', 1464, 'MSP', 'MSP', -4),
+('2020-01-13', 'DL', 1515, 'MSP', 'MSP', -7),
+('2020-01-13', 'DL', 1631, 'LAX', 'LAX', -10),
+('2020-01-13', 'DL', 1764, 'MSP', 'MSP', -10),
+('2020-01-13', 'DL', 1790, 'DTW', 'DTW', 9),
+('2020-01-13', 'DL', 1960, 'DTW', 'DTW', -4),
+('2020-01-13', 'DL', 1963, 'ATL', 'ATL', 13),
+('2020-01-13', 'DL', 2086, 'JFK', 'JFK', -6),
+('2020-01-13', 'DL', 2238, 'ATL', 'ATL', -4),
+('2020-01-13', 'DL', 2267, 'DTW', 'DTW', -1),
+('2020-01-13', 'DL', 2349, 'ATL', 'ATL', -4),
+('2020-01-13', 'DL', 2409, 'MSP', 'MSP', -6),
+('2020-01-13', 'DL', 2594, 'ATL', 'ATL', -9),
+('2020-01-13', 'DL', 2595, 'ATL', 'ATL', 18),
+('2020-01-13', 'DL', 2602, 'ATL', 'ATL', -7),
+('2020-01-13', 'DL', 2638, 'ATL', 'ATL', -5),
+('2020-01-13', 'DL', 2799, 'ATL', 'ATL', -3),
+('2020-01-13', 'DL', 2811, 'ATL', 'ATL', -4),
+('2020-01-13', 'DL', 2909, 'ATL', 'ATL', -5),
+('2020-01-13', 'DL', 2945, 'DTW', 'DTW', -6),
+('2021-01-13', 'DL', 317, 'LAX', 'LAX', -9),
+('2021-01-13', 'DL', 416, 'ATL', 'ATL', -2),
+('2021-01-13', 'DL', 432, 'ATL', 'ATL', -6),
+('2021-01-13', 'DL', 440, 'ATL', 'ATL', 40),
+('2021-01-13', 'DL', 457, 'ATL', 'ATL', -5),
+('2021-01-13', 'DL', 464, 'ATL', 'ATL', -2),
+('2021-01-13', 'DL', 777, 'SLC', 'SLC', -7),
+('2021-01-13', 'DL', 1559, 'DTW', 'DTW', -8),
+('2021-01-13', 'DL', 2006, 'DTW', 'DTW', -6),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2021-01-13', 'DL', 2226, 'ATL', 'ATL', 0),
+('2021-01-13', 'DL', 2276, 'DTW', 'DTW', -4),
+('2022-01-13', 'DL', 306, 'ATL', 'ATL', -7),
+('2022-01-13', 'DL', 307, 'ATL', 'ATL', -6),
+('2022-01-13', 'DL', 342, 'LAX', 'LAX', 5),
+('2022-01-13', 'DL', 361, 'ATL', 'ATL', -7),
+('2022-01-13', 'DL', 395, 'ATL', 'ATL', -7),
+('2022-01-13', 'DL', 418, 'ATL', 'ATL', -4),
+('2022-01-13', 'DL', 457, 'ATL', 'ATL', -4),
+('2022-01-13', 'DL', 459, 'ATL', 'ATL', 0),
+('2022-01-13', 'DL', 464, 'ATL', 'ATL', -6),
+('2022-01-13', 'DL', 528, 'ATL', 'ATL', -7),
+('2022-01-13', 'DL', 538, 'ATL', 'ATL', 2),
+('2022-01-13', 'DL', 760, 'SLC', 'SLC', 15),
+('2022-01-13', 'DL', 1343, 'MSP', 'MSP', -6),
+('2022-01-13', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-13', 'DL', 1637, 'DTW', 'DTW', -14),
+('2022-01-13', 'DL', 1740, 'MSP', 'MSP', -5),
+('2022-01-13', 'DL', 2244, 'MSP', 'MSP', -7),
+('2022-01-13', 'DL', 2289, 'MSP', 'MSP', -4),
+('2022-01-13', 'DL', 2623, 'DTW', 'DTW', -6),
+('2022-01-13', 'DL', 2660, 'ATL', 'ATL', 2),
+('2022-01-13', 'DL', 2675, 'MSP', 'MSP', -4),
+('2022-01-13', 'DL', 2885, 'DTW', 'DTW', -3),
+('2022-01-13', 'DL', 2995, 'DTW', 'DTW', -4),
+('2023-01-13', 'DL', 316, 'ATL', 'ATL', 149),
+('2023-01-13', 'DL', 380, 'LAX', 'LAX', -4),
+('2023-01-13', 'DL', 392, 'ATL', 'ATL', 65),
+('2023-01-13', 'DL', 410, 'ATL', 'ATL', 0),
+('2023-01-13', 'DL', 455, 'ATL', 'ATL', -3),
+('2023-01-13', 'DL', 513, 'ATL', 'ATL', -1),
+('2023-01-13', 'DL', 665, 'ATL', 'ATL', 1),
+('2023-01-13', 'DL', 683, 'SLC', 'SLC', 13),
+('2023-01-13', 'DL', 687, 'ATL', 'ATL', -8),
+('2023-01-13', 'DL', 759, 'ATL', 'ATL', 40),
+('2023-01-13', 'DL', 967, 'ATL', 'ATL', -2),
+('2023-01-13', 'DL', 972, 'ATL', 'ATL', 55),
+('2023-01-13', 'DL', 1237, 'MSP', 'MSP', 72),
+('2023-01-13', 'DL', 1442, 'DTW', 'DTW', -4),
+('2023-01-13', 'DL', 2309, 'MSP', 'MSP', 4),
+('2023-01-13', 'DL', 2436, 'MSP', 'MSP', -6),
+('2023-01-13', 'DL', 2442, 'MSP', 'MSP', 15),
+('2023-01-13', 'DL', 2476, 'DTW', 'DTW', 47),
+('2023-01-13', 'DL', 2560, 'MSP', 'MSP', -6),
+('2023-01-13', 'DL', 2676, 'DTW', 'DTW', 2),
+('2023-01-13', 'DL', 2832, 'ATL', 'ATL', 44),
+('2023-01-13', 'DL', 2847, 'DTW', 'DTW', -6),
+('2023-01-13', 'DL', 2849, 'DTW', 'DTW', -2),
+('2020-01-14', 'DL', 431, 'DTW', 'DTW', -12),
+('2020-01-14', 'DL', 832, 'SLC', 'SLC', -3),
+('2020-01-14', 'DL', 839, 'ATL', 'ATL', -5),
+('2020-01-14', 'DL', 952, 'MSP', 'MSP', -5),
+('2020-01-14', 'DL', 1139, 'DL', 'ATL', -6),
+('2020-01-14', 'DL', 1167, 'DTW', 'DTW', -8),
+('2020-01-14', 'DL', 1376, 'MSP', 'MSP', -5),
+('2020-01-14', 'DL', 1421, 'DTW', 'DTW', -5),
+('2020-01-14', 'DL', 1464, 'MSP', 'MSP', -5),
+('2020-01-14', 'DL', 1515, 'MSP', 'MSP', -7),
+('2020-01-14', 'DL', 1631, 'LAX', 'LAX', -2),
+('2020-01-14', 'DL', 1764, 'MSP', 'MSP', -3),
+('2020-01-14', 'DL', 1790, 'DTW', 'DTW', 30);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-14', 'DL', 1960, 'DTW', 'DTW', -4),
+('2020-01-14', 'DL', 1963, 'ATL', 'ATL', -4),
+('2020-01-14', 'DL', 2086, 'JFK', 'ATL', -8),
+('2020-01-14', 'DL', 2238, 'ATL', 'ATL', 1),
+('2020-01-14', 'DL', 2267, 'DTW', 'DTW', -3),
+('2020-01-14', 'DL', 2349, 'ATL', 'MSP', -3),
+('2020-01-14', 'DL', 2409, 'MSP', 'DTW', -3),
+('2020-01-14', 'DL', 2594, 'ATL', 'DTW', -6),
+('2020-01-14', 'DL', 2595, 'ATL', 'ATL', -12),
+('2020-01-14', 'DL', 2602, 'ATL', 'ATL', -7),
+('2020-01-14', 'DL', 2638, 'ATL', 'ATL', -8),
+('2020-01-14', 'DL', 2799, 'ATL', 'ATL', -7),
+('2020-01-14', 'DL', 2811, 'ATL', 'ATL', -1),
+('2020-01-14', 'DL', 2909, 'ATL', 'ATL', -9),
+('2020-01-14', 'DL', 2945, 'DTW', 'DTW', -5),
+('2020-01-14', 'DL', 317, 'LAX', 'LAX', -5),
+('2020-01-14', 'DL', 416, 'ATL', 'ATL', -5),
+('2020-01-14', 'DL', 432, 'ATL', 'ATL', 4),
+('2020-01-14', 'DL', 440, 'ATL', 'ATL', -6),
+('2020-01-14', 'DL', 457, 'ATL', 'ATL', -5),
+('2020-01-14', 'DL', 464, 'ATL', 'ATL', -1),
+('2020-01-14', 'DL', 476, 'ATL', 'ATL', -10),
+('2020-01-14', 'DL', 777, 'SLC', 'SLC', -5),
+('2020-01-14', 'DL', 1559, 'DTW', 'DTW', -8),
+('2020-01-14', 'DL', 2006, 'DTW', 'DTW', -7),
+('2020-01-14', 'DL', 2226, 'ATL', 'ATL', -4),
+('2020-01-14', 'DL', 2276, 'DTW', 'DTW', -7);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2022-01-15', 'DL', 306, 'ATL', 'ATL', -5),
+('2022-01-15', 'DL', 307, 'ATL', 'ATL', -1),
+('2022-01-15', 'DL', 342, 'LAX', 'LAX', 6),
+('2022-01-15', 'DL', 418, 'ATL', 'ATL', -7),
+('2022-01-15', 'DL', 457, 'ATL', 'ATL', -6),
+('2022-01-15', 'DL', 459, 'ATL', 'ATL', -5),
+('2022-01-15', 'DL', 464, 'ATL', 'ATL', -5),
+('2022-01-15', 'DL', 528, 'ATL', 'ATL', -6),
+('2022-01-15', 'DL', 538, 'ATL', 'ATL', -8),
+('2022-01-15', 'DL', 760, 'SLC', 'SLC', 59),
+('2022-01-15', 'DL', 1343, 'MSP', 'MSP', -8),
+('2022-01-15', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-15', 'DL', 1740, 'MSP', 'MSP', -7),
+('2022-01-15', 'DL', 2244, 'MSP', 'MSP', -6),
+('2022-01-15', 'DL', 2289, 'MSP', 'MSP', -6),
+('2022-01-15', 'DL', 2623, 'DTW', 'DTW', -17),
+('2022-01-15', 'DL', 2660, 'ATL', 'ATL', -3),
+('2022-01-15', 'DL', 2675, 'MSP', 'MSP', -1),
+('2022-01-15', 'DL', 2885, 'DTW', 'DTW', -5),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2022-01-15', 'DL', 2995, 'DTW', 'DTW', -6),
+('2023-01-15', 'DL', 316, 'ATL', 'ATL', -3),
+('2023-01-15', 'DL', 380, 'LAX', 'LAX', 62),
+('2023-01-15', 'DL', 410, 'ATL', 'ATL', -7),
+('2023-01-15', 'DL', 455, 'ATL', 'ATL', 1),
+('2023-01-15', 'DL', 513, 'ATL', 'ATL', -5),
+('2023-01-15', 'DL', 665, 'ATL', 'ATL', 2),
+('2023-01-15', 'DL', 683, 'SLC', 'SLC', 4),
+('2023-01-15', 'DL', 687, 'ATL', 'ATL', -12),
+('2023-01-15', 'DL', 759, 'ATL', 'ATL', 14),
+('2023-01-15', 'DL', 967, 'ATL', 'ATL', 2),
+('2023-01-15', 'DL', 972, 'ATL', 'ATL', -7),
+('2023-01-15', 'DL', 1237, 'MSP', 'MSP', -3),
+('2023-01-15', 'DL', 1442, 'DTW', 'DTW', -10),
+('2023-01-15', 'DL', 2309, 'MSP', 'MSP', -9),
+('2023-01-15', 'DL', 2436, 'MSP', 'MSP', 4),
+('2023-01-15', 'DL', 2442, 'MSP', 'MSP', -5),
+('2023-01-15', 'DL', 2476, 'DTW', 'DTW', -4),
+('2023-01-15', 'DL', 2560, 'MSP', 'MSP', -9),
+('2023-01-15', 'DL', 2676, 'DTW', 'DTW', -3),
+('2023-01-15', 'DL', 2832, 'ATL', 'ATL', 27),
+('2023-01-15', 'DL', 2847, 'DTW', 'DTW', -2),
+('2023-01-15', 'DL', 2849, 'DTW', 'DTW', -6),
+('2020-01-16', 'DL', 431, 'DTW', 'DTW', 5),
+('2020-01-16', 'DL', 832, 'SLC', 'SLC', 5),
+('2020-01-16', 'DL', 839, 'ATL', 'ATL', -3),
+('2020-01-16', 'DL', 952, 'MSP', 'MSP', -9),
+('2020-01-16', 'DL', 1139, 'ATL', 'ATL', -1),
+('2020-01-16', 'DL', 1167, 'DTW', 'DTW', -5),
+('2020-01-16', 'DL', 1376, 'MSP', 'MSP', -4),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-16', 'DL', 1421, 'DTW', 'DTW', -4),
+('2020-01-16', 'DL', 1464, 'MSP', 'MSP', -4),
+('2020-01-16', 'DL', 1515, 'MSP', 'MSP', -5),
+('2020-01-16', 'DL', 1631, 'LAX', 'LAX', -1),
+('2020-01-16', 'DL', 1764, 'MSP', 'MSP', 5),
+('2020-01-16', 'DL', 1790, 'DTW', 'DTW', -3),
+('2020-01-16', 'DL', 1960, 'DTW', 'DTW', -4),
+('2020-01-16', 'DL', 1963, 'ATL', 'ATL', -3),
+('2020-01-16', 'DL', 2086, 'JFK', 'JFK', -1),
+('2020-01-16', 'DL', 2238, 'ATL', 'ATL', 3),
+('2020-01-16', 'DL', 2267, 'DTW', 'DTW', -9),
+('2020-01-16', 'DL', 2349, 'ATL', 'ATL', 31),
+('2020-01-16', 'DL', 2409, 'MSP', 'MSP', 0),
+('2020-01-16', 'DL', 2594, 'ATL', 'ATL', -3),
+('2020-01-16', 'DL', 2595, 'ATL', 'ATL', -5),
+('2020-01-16', 'DL', 2602, 'ATL', 'ATL', 1),
+('2020-01-16', 'DL', 2638, 'ATL', 'ATL', -4),
+('2020-01-16', 'DL', 2799, 'ATL', 'ATL', -2),
+('2020-01-16', 'DL', 2811, 'ATL', 'ATL', 0),
+('2020-01-16', 'DL', 2909, 'ATL', 'ATL', -5),
+('2020-01-16', 'DL', 2945, 'DTW', 'DTW', -3),
+('2021-01-16', 'DL', 317, 'LAX', 'LAX', -5),
+('2021-01-16', 'DL', 416, 'ATL', 'ATL', -5),
+('2021-01-16', 'DL', 432, 'ATL', 'ATL', -7),
+('2021-01-16', 'DL', 440, 'ATL', 'ATL', -5),
+('2021-01-16', 'DL', 457, 'ATL', 'ATL', 0),
+('2021-01-16', 'DL', 464, 'ATL', 'ATL', -7),
+('2021-01-16', 'DL', 777, 'SLC', 'SLC', -7),
+('2021-01-16', 'DL', 1559, 'DTW', 'DTW', -8),
+('2021-01-16', 'DL', 2006, 'DTW', 'DTW', -5),
+('2021-01-16', 'DL', 2226, 'ATL', 'ATL', -5),
+('2022-01-16', 'DL', 306, 'ATL', 'ATL', -7),
+('2022-01-16', 'DL', 307, 'ATL', 'ATL', 0),
+('2022-01-16', 'DL', 342, 'LAX', 'LAX', 0),
+('2022-01-16', 'DL', 395, 'ATL', 'ATL', -1),
+('2022-01-16', 'DL', 418, 'ATL', 'ATL', 173),
+('2022-01-16', 'DL', 459, 'ATL', 'ATL', 48),
+('2022-01-16', 'DL', 464, 'ATL', 'ATL', 0),
+('2022-01-16', 'DL', 528, 'ATL', 'ATL', -4),
+('2022-01-16', 'DL', 538, 'ATL', 'ATL', -16),
+('2022-01-16', 'DL', 760, 'SLC', 'SLC', 0),
+('2022-01-16', 'DL', 1343, 'MSP', 'MSP', 101),
+('2022-01-16', 'DL', 1530, 'DTW', 'DTW', -4),
+('2022-01-16', 'DL', 1637, 'DTW', 'DTW', 0),
+('2022-01-16', 'DL', 1740, 'MSP', 'MSP', -6),
+('2022-01-16', 'DL', 2244, 'MSP', 'MSP', 0),
+('2022-01-16', 'DL', 2289, 'MSP', 'MSP', -8),
+('2022-01-16', 'DL', 2623, 'DTW', 'DTW', 287),
+('2022-01-16', 'DL', 2660, 'ATL', 'ATL', 0),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2022-01-16', 'DL', 2675, 'MSP', 'MSP', -5),
+('2022-01-16', 'DL', 2885, 'DTW', 'DTW', -8),
+('2022-01-16', 'DL', 2995, 'DTW', 'DTW', 0),
+('2023-01-16', 'DL', 316, 'ATL', 'ATL', -3),
+('2023-01-16', 'DL', 380, 'LAX', 'LAX', -4),
+('2023-01-16', 'DL', 392, 'ATL', 'ATL', 19),
+('2023-01-16', 'DL', 410, 'ATL', 'ATL', -2),
+('2023-01-16', 'DL', 455, 'ATL', 'ATL', 1),
+('2023-01-16', 'DL', 513, 'ATL', 'ATL', -7),
+('2023-01-16', 'DL', 665, 'ATL', 'ATL', 54),
+('2023-01-16', 'DL', 683, 'SLC', 'SLC', 18),
+('2023-01-16', 'DL', 687, 'ATL', 'ATL', 1),
+('2023-01-16', 'DL', 759, 'ATL', 'ATL', 5),
+('2023-01-16', 'DL', 967, 'ATL', 'ATL', -2),
+('2023-01-16', 'DL', 972, 'ATL', 'ATL', -6),
+('2023-01-16', 'DL', 1237, 'MSP', 'MSP', -1),
+('2023-01-16', 'DL', 1442, 'DTW', 'DTW', -2),
+('2023-01-16', 'DL', 2309, 'MSP', 'MSP', -8),
+('2023-01-16', 'DL', 2436, 'MSP', 'MSP', -1),
+('2023-01-16', 'DL', 2442, 'MSP', 'MSP', 3),
+('2023-01-16', 'DL', 2476, 'DTW', 'DTW', -4),
+('2023-01-16', 'DL', 2560, 'MSP', 'MSP', -1),
+('2023-01-16', 'DL', 2676, 'DTW', 'DTW', 34),
+('2023-01-16', 'DL', 2832, 'ATL', 'ATL', 19),
+('2023-01-16', 'DL', 2847, 'DTW', 'DTW', -3),
+('2023-01-16', 'DL', 2849, 'DTW', 'DTW', -4),
+('2023-01-17', 'DL', 431, 'DTW', 'DTW', 0),
+('2023-01-17', 'DL', 832, 'SLC', 'SLC', 14),
+('2023-01-17', 'DL', 839, 'ATL', 'ATL', -3),
+('2023-01-17', 'DL', 952, 'MSP', 'MSP', 35),
+('2023-01-17', 'DL', 1139, 'ATL', 'ATL', 2),
+('2023-01-17', 'DL', 1167, 'DTW', 'DTW', -3),
+('2023-01-17', 'DL', 1376, 'MSP', 'MSP', -3),
+('2023-01-17', 'DL', 1421, 'DTW', 'DTW', -1),
+('2023-01-17', 'DL', 1464, 'MSP', 'MSP', -11),
+('2023-01-17', 'DL', 1515, 'MSP', 'MSP', 2),
+('2023-01-17', 'DL', 1631, 'LAX', 'LAX', -1),
+('2023-01-17', 'DL', 1764, 'MSP', 'MSP', -6),
+('2023-01-17', 'DL', 1790, 'DTW', 'DTW', -5),
+('2023-01-17', 'DL', 1960, 'DTW', 'DTW', -7),
+('2023-01-17', 'DL', 1963, 'ATL', 'ATL', -1),
+('2023-01-17', 'DL', 2086, 'JFK', 'JFK', -1),
+('2023-01-17', 'DL', 2238, 'ATL', 'ATL', -4),
+('2023-01-17', 'DL', 2267, 'DTW', 'DTW', -4),
+('2023-01-17', 'DL', 2349, 'ATL', 'ATL', -4),
+('2023-01-17', 'DL', 2409, 'MSP', 'MSP', -1),
+('2023-01-17', 'DL', 2594, 'ATL', 'ATL', -2),
+('2023-01-17', 'DL', 2595, 'ATL', 'ATL', -3),
+('2023-01-17', 'DL', 2602, 'ATL', 'ATL', 0),
+('2023-01-17', 'DL', 2638, 'ATL', 'ATL', -2),
+('2023-01-17', 'DL', 2799, 'ATL', 'ATL', -3),
+('2023-01-17', 'DL', 2811, 'ATL', 'ATL', -6),
+('2023-01-17', 'DL', 2909, 'ATL', 'ATL', -4),
+('2023-01-17', 'DL', 2945, 'DTW', 'DTW', -2);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2021-01-17', 'DL', 317, 'LAX', 'LAX', -7),
+('2021-01-17', 'DL', 416, 'ATL', 'ATL', -8),
+('2021-01-17', 'DL', 432, 'ATL', 'ATL', -8),
+('2021-01-17', 'DL', 440, 'ATL', 'ATL', -2),
+('2021-01-17', 'DL', 457, 'ATL', 'ATL', -6),
+('2021-01-17', 'DL', 464, 'ATL', 'ATL', -3),
+('2021-01-17', 'DL', 777, 'SLC', 'SLC', -6),
+('2021-01-17', 'DL', 1003, 'MSP', 'MSP', -11),
+('2021-01-17', 'DL', 1559, 'DTW', 'DTW', -6),
+('2021-01-17', 'DL', 2006, 'DTW', 'DTW', -5),
+('2021-01-17', 'DL', 2226, 'ATL', 'ATL', -2),
+('2022-01-17', 'DL', 306, 'ATL', 'ATL', -5),
+('2022-01-17', 'DL', 307, 'ATL', 'ATL', 0),
+('2022-01-17', 'DL', 342, 'LAX', 'LAX', 104),
+('2022-01-17', 'DL', 361, 'ATL', 'ATL', 1),
+('2022-01-17', 'DL', 395, 'ATL', 'ATL', -3),
+('2022-01-17', 'DL', 418, 'ATL', 'ATL', -5),
+('2022-01-17', 'DL', 457, 'ATL', 'ATL', 0),
+('2022-01-17', 'DL', 459, 'ATL', 'ATL', 10),
+('2022-01-17', 'DL', 464, 'ATL', 'ATL', 123),
+('2022-01-17', 'DL', 528, 'ATL', 'ATL', 0),
+('2022-01-17', 'DL', 538, 'ATL', 'ATL', -4),
+('2022-01-17', 'DL', 760, 'SLC', 'SLC', 85),
+('2022-01-17', 'DL', 1343, 'MSP', 'MSP', 23),
+('2022-01-17', 'DL', 1530, 'DTW', 'DTW', -2),
+('2022-01-17', 'DL', 1637, 'DTW', 'DTW', -5),
+('2022-01-17', 'DL', 1740, 'MSP', 'MSP', 0),
+('2022-01-17', 'DL', 2244, 'MSP', 'MSP', -7),
+('2022-01-17', 'DL', 2289, 'MSP', 'MSP', -6),
+('2022-01-17', 'DL', 2623, 'DTW', 'DTW', -2),
+('2022-01-17', 'DL', 2660, 'ATL', 'ATL', 0),
+('2022-01-17', 'DL', 2675, 'MSP', 'MSP', 0),
+('2022-01-17', 'DL', 2885, 'DTW', 'DTW', 0),
+('2022-01-17', 'DL', 2995, 'DTW', 'DTW', 3),
+('2023-01-17', 'DL', 316, 'ATL', 'ATL', -7),
+('2023-01-17', 'DL', 380, 'LAX', 'LAX', 17),
+('2023-01-17', 'DL', 392, 'ATL', 'ATL', -4),
+('2023-01-17', 'DL', 410, 'ATL', 'ATL', -6),
+('2023-01-17', 'DL', 455, 'ATL', 'ATL', -6),
+('2023-01-17', 'DL', 513, 'ATL', 'ATL', -6),
+('2023-01-17', 'DL', 665, 'ATL', 'ATL', -9),
+('2023-01-17', 'DL', 683, 'SLC', 'SLC', -5),
+('2023-01-17', 'DL', 687, 'ATL', 'ATL', -18),
+('2023-01-17', 'DL', 759, 'ATL', 'ATL', -1),
+('2023-01-17', 'DL', 967, 'ATL', 'ATL', -6),
+('2023-01-17', 'DL', 972, 'ATL', 'ATL', 1),
+('2023-01-17', 'DL', 1237, 'MSP', 'MSP', -5),
+('2023-01-17', 'DL', 1442, 'DTW', 'DTW', 223),
+('2023-01-17', 'DL', 2309, 'MSP', 'MSP', -7),
+('2023-01-17', 'DL', 2436, 'MSP', 'MSP', 132),
+('2023-01-17', 'DL', 2442, 'MSP', 'MSP', -11),
+('2023-01-17', 'DL', 2476, 'DTW', 'DTW', -7),
+('2023-01-17', 'DL', 2560, 'MSP', 'MSP', -8),
+('2023-01-17', 'DL', 2676, 'DTW', 'DTW', -13),
+('2023-01-17', 'DL', 2832, 'ATL', 'ATL', -10),
+('2023-01-17', 'DL', 2847, 'DTW', 'DTW', -5),
+('2023-01-17', 'DL', 2849, 'DTW', 'DTW', -19);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES 
+('2020-01-18', 'DL', 832, 'SLC', -6),
+('2020-01-18', 'DL', 839, 'ATL', -7),
+('2020-01-18', 'DL', 1139, 'ATL', -4),
+('2020-01-18', 'DL', 1421, 'DTW', -6),
+('2020-01-18', 'DL', 1515, 'MSP', 40),
+('2020-01-18', 'DL', 1631, 'LAX', -2),
+('2020-01-18', 'DL', 1730, 'JFK', 184),
+('2020-01-18', 'DL', 1764, 'MSP', 7),
+('2020-01-18', 'DL', 1960, 'DTW', -5),
+('2020-01-18', 'DL', 2086, 'JFK', -4),
+('2020-01-18', 'DL', 2238, 'ATL', -4),
+('2020-01-18', 'DL', 2349, 'ATL', -1),
+('2020-01-18', 'DL', 2594, 'ATL', 2),
+('2020-01-18', 'DL', 2602, 'ATL', -2),
+('2020-01-18', 'DL', 2638, 'ATL', -1),
+('2020-01-18', 'DL', 2945, 'DTW', -8),
+('2021-01-18', 'DL', 317, 'LAX', -5),
+('2021-01-18', 'DL', 416, 'ATL', -1),
+('2021-01-18', 'DL', 432, 'ATL', -5),
+('2021-01-18', 'DL', 440, 'ATL', -8),
+('2021-01-18', 'DL', 457, 'ATL', -6),
+('2021-01-18', 'DL', 464, 'ATL', -6),
+('2021-01-18', 'DL', 476, 'ATL', 6),
+('2021-01-18', 'DL', 777, 'SLC', -8),
+('2021-01-18', 'DL', 1405, 'MSP', -7),
+('2021-01-18', 'DL', 1559, 'DTW', -7),
+('2021-01-18', 'DL', 2006, 'DTW', -6),
+('2021-01-18', 'DL', 2226, 'ATL', -7),
+('2021-01-18', 'DL', 2276, 'DTW', -5),
+('2022-01-18', 'DL', 306, 'ATL', -9),
+('2022-01-18', 'DL', 307, 'ATL', -7),
+('2022-01-18', 'DL', 342, 'LAX', -3),
+('2022-01-18', 'DL', 361, 'ATL', -12),
+('2022-01-18', 'DL', 395, 'ATL', -8),
+('2022-01-18', 'DL', 418, 'ATL', -5),
+('2022-01-18', 'DL', 457, 'ATL', 8),
+('2022-01-18', 'DL', 459, 'ATL', -8),
+('2022-01-18', 'DL', 464, 'ATL', 8),
+('2022-01-18', 'DL', 528, 'ATL', -4),
+('2022-01-18', 'DL', 538, 'ATL', 6),
+('2022-01-18', 'DL', 760, 'SLC', -4),
+('2022-01-18', 'DL', 1343, 'MSP', -4),
+('2022-01-18', 'DL', 1530, 'DTW', -10),
+('2022-01-18', 'DL', 1637, 'DTW', -9),
+('2022-01-18', 'DL', 1740, 'MSP', -7),
+('2022-01-18', 'DL', 2244, 'MSP', -7),
+('2022-01-18', 'DL', 2289, 'MSP', -5),
+('2022-01-18', 'DL', 2623, 'DTW', 39),
+('2022-01-18', 'DL', 2660, 'ATL', -8),
+('2022-01-18', 'DL', 2675, 'MSP', -6),
+('2022-01-18', 'DL', 2885, 'DTW', -6),
+('2022-01-18', 'DL', 2995, 'DTW', -11),
+('2023-01-18', 'DL', 316, 'ATL', -10),
+('2023-01-18', 'DL', 380, 'LAX', -4),
+('2023-01-18', 'DL', 392, 'ATL', -6),
+('2023-01-18', 'DL', 410, 'ATL', -5),
+('2023-01-18', 'DL', 455, 'ATL', 0),
+('2023-01-18', 'DL', 513, 'ATL', 4),
+('2023-01-18', 'DL', 665, 'ATL', 148),
+('2023-01-18', 'DL', 683, 'SLC', 19),
+('2023-01-18', 'DL', 687, 'ATL', -2),
+('2023-01-18', 'DL', 759, 'ATL', -6),
+('2023-01-18', 'DL', 967, 'ATL', -6),
+('2023-01-18', 'DL', 972, 'ATL', -6),
+('2023-01-18', 'DL', 1237, 'MSP', -8),
+('2023-01-18', 'DL', 1442, 'DTW', -1),
+('2023-01-18', 'DL', 2309, 'MSP', -6),
+('2023-01-18', 'DL', 2436, 'MSP', -8),
+('2023-01-18', 'DL', 2442, 'MSP', -4),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2023-01-18', 'DL', 2476, 'DTW', 'DTW', -3),
+('2023-01-18', 'DL', 2560, 'MSP', 'MSP', -9),
+('2023-01-18', 'DL', 2676, 'DTW', 'DTW', 1),
+('2023-01-18', 'DL', 2832, 'ATL', 'ATL', -8),
+('2023-01-18', 'DL', 2847, 'DTW', 'DTW', -7),
+('2023-01-18', 'DL', 2849, 'DTW', 'DTW', -10),
+('2020-01-19', 'DL', 832, 'SLC', 'SLC', -1),
+('2020-01-19', 'DL', 839, 'ATL', 'ATL', -6),
+('2020-01-19', 'DL', 1139, 'ATL', 'ATL', 0),
+('2020-01-19', 'DL', 1167, 'DTW', 'DTW', -1),
+('2020-01-19', 'DL', 1376, 'MSP', 'MSP', -5),
+('2020-01-19', 'DL', 1421, 'DTW', 'DTW', -4),
+('2020-01-19', 'DL', 1464, 'MSP', 'MSP', -4),
+('2020-01-19', 'DL', 1539, 'JFK', 'JFK', -6),
+('2020-01-19', 'DL', 1631, 'LAX', 'LAX', -5),
+('2020-01-19', 'DL', 1764, 'MSP', 'MSP', -3),
+('2020-01-19', 'DL', 1960, 'DTW', 'DTW', 23),
+('2020-01-19', 'DL', 1963, 'ATL', 'ATL', -3),
+('2020-01-19', 'DL', 2086, 'JFK', 'JFK', 14),
+('2020-01-19', 'DL', 2349, 'ATL', 'ATL', -2),
+('2020-01-19', 'DL', 2594, 'ATL', 'ATL', -6),
+('2020-01-19', 'DL', 2602, 'ATL', 'ATL', -5),
+('2020-01-19', 'DL', 2799, 'ATL', 'ATL', -7),
+('2020-01-19', 'DL', 2811, 'ATL', 'ATL', -4),
+('2020-01-19', 'DL', 2945, 'DTW', 'DTW', -7),
+('2021-01-19', 'DL', 317, 'LAX', 'LAX', -9),
+('2021-01-19', 'DL', 416, 'ATL', 'ATL', -12),
+('2021-01-19', 'DL', 432, 'ATL', 'ATL', -5),
+('2021-01-19', 'DL', 440, 'ATL', 'ATL', -5),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2021-01-19', 'DL', 457, 'ATL', 'ATL', -5),
+('2021-01-19', 'DL', 464, 'ATL', 'ATL', 0),
+('2021-01-19', 'DL', 476, 'ATL', 'ATL', -8),
+('2021-01-19', 'DL', 777, 'SLC', 'SLC', -8),
+('2021-01-19', 'DL', 1552, 'MSP', 'MSP', -2),
+('2021-01-19', 'DL', 1559, 'DTW', 'DTW', -4),
+('2021-01-19', 'DL', 2006, 'DTW', 'DTW', -8),
+('2021-01-19', 'DL', 2226, 'ATL', 'ATL', -7),
+('2021-01-19', 'DL', 2276, 'DTW', 'DTW', -7),
+('2021-01-19', 'DL', 8783, 'ATL', 'ATL', 0),
+('2021-01-19', 'DL', 8785, 'ATL', 'ATL', -5),
+('2021-01-19', 'DL', 8786, 'MSP', 'MSP', -13),
+('2022-01-19', 'DL', 306, 'ATL', 'ATL', -2),
+('2022-01-19', 'DL', 307, 'ATL', 'ATL', -5),
+('2022-01-19', 'DL', 342, 'LAX', 'LAX', -6),
+('2022-01-19', 'DL', 361, 'ATL', 'ATL', -4),
+('2022-01-19', 'DL', 395, 'ATL', 'ATL', 15),
+('2022-01-19', 'DL', 418, 'ATL', 'ATL', 72),
+('2022-01-19', 'DL', 457, 'ATL', 'ATL', -3),
+('2022-01-19', 'DL', 459, 'ATL', 'ATL', -5),
+('2022-01-19', 'DL', 464, 'ATL', 'ATL', 11),
+('2022-01-19', 'DL', 528, 'ATL', 'ATL', -4),
+('2022-01-19', 'DL', 538, 'ATL', 'ATL', -3),
+('2022-01-19', 'DL', 760, 'SLC', 'SLC', -2),
+('2022-01-19', 'DL', 1343, 'MSP', 'MSP', 88),
+('2022-01-19', 'DL', 1530, 'DTW', 'DTW', -8),
+('2022-01-19', 'DL', 1637, 'DTW', 'DTW', -3),
+('2022-01-19', 'DL', 1740, 'MSP', 'MSP', -11),
+('2022-01-19', 'DL', 2244, 'MSP', 'MSP', 8),
+('2022-01-19', 'DL', 2289, 'MSP', 'MSP', -7),
+('2022-01-19', 'DL', 2623, 'DTW', 'DTW', -7),
+('2022-01-19', 'DL', 2660, 'ATL', 'ATL', -3),
+('2022-01-19', 'DL', 2675, 'MSP', 'MSP', -7),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) 
+VALUES('2022-01-19', 'DL', 2885, 'DTW', 'DTW', 0),
+('2022-01-19', 'DL', 2995, 'DTW', 'DTW', -5),
+('2023-01-19', 'DL', 316, 'ATL', 'ATL', 20),
+('2023-01-19', 'DL', 380, 'LAX', 'LAX', 9),
+('2023-01-19', 'DL', 392, 'ATL', 'ATL', -4),
+('2023-01-19', 'DL', 410, 'ATL', 'ATL', -7),
+('2023-01-19', 'DL', 455, 'ATL', 'ATL', 14),
+('2023-01-19', 'DL', 513, 'ATL', 'ATL', -6),
+('2023-01-19', 'DL', 665, 'ATL', 'ATL', 3),
+('2023-01-19', 'DL', 683, 'SLC', 'SLC', 115),
+('2023-01-19', 'DL', 687, 'ATL', 'ATL', 34),
+('2023-01-19', 'DL', 759, 'ATL', 'ATL', -7),
+('2023-01-19', 'DL', 967, 'ATL', 'ATL', -7),
+('2023-01-19', 'DL', 972, 'ATL', 'ATL', -7),
+('2023-01-19', 'DL', 1237, 'MSP', 'MSP', -7),
+('2023-01-19', 'DL', 1442, 'DTW', 'DTW', -6),
+('2023-01-19', 'DL', 2309, 'MSP', 'MSP', -7),
+('2023-01-19', 'DL', 2436, 'MSP', 'MSP', -5),
+('2023-01-19', 'DL', 2442, 'MSP', 'MSP', 38),
+('2023-01-19', 'DL', 2476, 'DTW', 'DTW', -5),
+('2023-01-19', 'DL', 2560, 'MSP', 'MSP', -16),
+('2023-01-19', 'DL', 2676, 'DTW', 'DTW', 44),
+('2023-01-19', 'DL', 2832, 'ATL', 'ATL', 123),
+('2023-01-19', 'DL', 2847, 'DTW', 'DTW', -5),
+('2023-01-19', 'DL', 2849, 'DTW', 'DTW', -6),
+('2020-01-20', 'DL', 431, 'DTW', 'DTW', 12),
+('2020-01-20', 'DL', 832, 'SLC', 'SLC', -7),
+('2020-01-20', 'DL', 839, 'ATL', 'ATL', -6),
+('2020-01-20', 'DL', 952, 'MSP', 'MSP', -2),
+('2020-01-20', 'DL', 1139, 'ATL', 'ATL', -5),
+('2020-01-20', 'DL', 1167, 'DTW', 'DTW', -4),
+('2020-01-20', 'DL', 1421, 'DTW', 'DTW', -4),
+('2020-01-20', 'DL', 1464, 'MSP', 'MSP', -6),
+('2020-01-20', 'DL', 1515, 'MSP', 'MSP', -7),
+('2020-01-20', 'DL', 1631, 'LAX', 'LAX', -10),
+('2020-01-20', 'DL', 1764, 'MSP', 'MSP', 14),
+('2020-01-20', 'DL', 1790, 'DTW', 'DTW', 6),
+('2020-01-20', 'DL', 1960, 'DTW', 'DTW', -7),
+('2020-01-20', 'DL', 1963, 'ATL', 'ATL', -3),
+('2020-01-20', 'DL', 2086, 'JFK', 'JFK', -1),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2023-01-20', 'DL', 2436, 'MSP', 'MSP', 2),
+('2020-01-20', 'DL', 2238, 'ATL', 'ATL', -8),
+('2020-01-20', 'DL', 2267, 'DTW', 'DTW', -10),
+('2020-01-20', 'DL', 2349, 'ATL', 'ATL', 1),
+('2020-01-20', 'DL', 2409, 'MSP', 'MSP', -1),
+('2020-01-20', 'DL', 2594, 'ATL', 'ATL', -6),
+('2020-01-20', 'DL', 2602, 'ATL', 'ATL', 0),
+('2020-01-20', 'DL', 2638, 'ATL', 'ATL', 9),
+('2020-01-20', 'DL', 2799, 'ATL', 'ATL', 33),
+('2020-01-20', 'DL', 2811, 'ATL', 'ATL', 12),
+('2020-01-20', 'DL', 2909, 'ATL', 'ATL', -8),
+('2020-01-20', 'DL', 2945, 'DTW', 'DTW', -6),
+('2021-01-20', 'DL', 317, 'LAX', 'LAX', -6),
+('2021-01-20', 'DL', 416, 'ATL', 'ATL', -7),
+('2021-01-20', 'DL', 432, 'ATL', 'ATL', -17),
+('2021-01-20', 'DL', 440, 'ATL', 'ATL', 55),
+('2021-01-20', 'DL', 457, 'ATL', 'ATL', -7),
+('2021-01-20', 'DL', 464, 'ATL', 'ATL', -9),
+('2021-01-20', 'DL', 777, 'SLC', 'SLC', -8),
+('2021-01-20', 'DL', 1559, 'DTW', 'DTW', -36),
+('2021-01-20', 'DL', 2006, 'DTW', 'DTW', -7),
+('2021-01-20', 'DL', 2226, 'ATL', 'ATL', -6),
+('2021-01-20', 'DL', 2276, 'DTW', 'DTW', -6),
+('2022-01-20', 'DL', 306, 'ATL', 'ATL', -3),
+('2022-01-20', 'DL', 307, 'ATL', 'ATL', -1),
+('2022-01-20', 'DL', 342, 'LAX', 'LAX', -6),
+('2022-01-20', 'DL', 361, 'ATL', 'ATL', -3),
+('2022-01-20', 'DL', 395, 'ATL', 'ATL', -4),
+('2022-01-20', 'DL', 418, 'ATL', 'ATL', 22),
+('2022-01-20', 'DL', 457, 'ATL', 'ATL', -11),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2022-01-20', 'DL', 464, 'ATL', 'ATL', 2),
+('2022-01-20', 'DL', 528, 'ATL', 'ATL', -3),
+('2022-01-20', 'DL', 538, 'ATL', 'ATL', 1),
+('2022-01-20', 'DL', 760, 'SLC', 'SLC', 17),
+('2022-01-20', 'DL', 1343, 'MSP', 'MSP', -7),
+('2022-01-20', 'DL', 1530, 'DTW', 'DTW', 65),
+('2022-01-20', 'DL', 1637, 'DTW', 'DTW', -8),
+('2022-01-20', 'DL', 1740, 'MSP', 'MSP', -9),
+('2022-01-20', 'DL', 2244, 'MSP', 'MSP', -5),
+('2022-01-20', 'DL', 2289, 'MSP', 'MSP', -8),
+('2022-01-20', 'DL', 2623, 'DTW', 'DTW', -9),
+('2022-01-20', 'DL', 2660, 'ATL', 'ATL', -13),
+('2022-01-20', 'DL', 2675, 'MSP', 'MSP', -18),
+('2022-01-20', 'DL', 2885, 'DTW', 'DTW', 4),
+('2022-01-20', 'DL', 2995, 'DTW', 'DTW', -4),
+('2023-01-20', 'DL', 316, 'ATL', 'ATL', 4),
+('2023-01-20', 'DL', 380, 'LAX', 'LAX', -3),
+('2023-01-20', 'DL', 392, 'ATL', 'ATL', 20),
+('2023-01-20', 'DL', 410, 'ATL', 'ATL', -1),
+('2023-01-20', 'DL', 455, 'ATL', 'ATL', 23),
+('2023-01-20', 'DL', 513, 'ATL', 'ATL', 2),
+('2023-01-20', 'DL', 665, 'ATL', 'ATL', 50),
+('2023-01-20', 'DL', 683, 'SLC', 'SLC', -1),
+('2023-01-20', 'DL', 687, 'ATL', 'ATL', -5),
+('2023-01-20', 'DL', 759, 'ATL', 'ATL', 13),
+('2023-01-20', 'DL', 967, 'ATL', 'ATL', 11),
+('2023-01-20', 'DL', 972, 'ATL', 'ATL', 12),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2023-01-20', 'DL', 1442, 'DTW', 'DTW', -5),
+('2023-01-20', 'DL', 2309, 'MSP', 'MSP', -7),
+('2023-01-20', 'DL', 2436, 'MSP', 'MSP', 2),
+('2023-01-20', 'DL', 2442, 'MSP', 'MSP', 252),
+('2023-01-20', 'DL', 2476, 'DTW', 'DTW', 0),
+('2023-01-20', 'DL', 2560, 'MSP', 'MSP', -5),
+('2023-01-20', 'DL', 2676, 'DTW', 'DTW', -10),
+('2023-01-20', 'DL', 2832, 'ATL', 'ATL', 38),
+('2023-01-20', 'DL', 2847, 'DTW', 'DTW', -9),
+('2023-01-20', 'DL', 2849, 'DTW', 'DTW', -1),
+('2020-01-21', 'DL', 431, 'DTW', 'DTW', -10),
+('2020-01-21', 'DL', 832, 'SLC', 'SLC', 0),
+('2020-01-21', 'DL', 839, 'ATL', 'ATL', -7),
+('2020-01-21', 'DL', 952, 'MSP', 'MSP', -5),
+('2020-01-21', 'DL', 1139, 'ATL', 'ATL', -2),
+('2020-01-21', 'DL', 1167, 'DTW', 'DTW', -6),
+('2020-01-21', 'DL', 1376, 'MSP', 'MSP', -6),
+('2020-01-21', 'DL', 1421, 'DTW', 'DTW', -5),
+('2020-01-21', 'DL', 1464, 'MSP', 'MSP', -7),
+('2020-01-21', 'DL', 1515, 'MSP', 'MSP', 19),
+('2020-01-21', 'DL', 1631, 'LAX', 'LAX', -9),
+('2020-01-21', 'DL', 1764, 'MSP', 'MSP', -6),
+('2020-01-21', 'DL', 1790, 'DTW', 'DTW', -6),
+('2020-01-21', 'DL', 1960, 'DTW', 'DTW', -8),
+('2020-01-21', 'DL', 1963, 'ATL', 'ATL', -2),
+('2020-01-21', 'DL', 2086, 'JFK', 'JFK', -7),
+('2020-01-21', 'DL', 2238, 'ATL', 'ATL', -4),
+('2020-01-21', 'DL', 2267, 'DTW', 'DTW', -2),
+('2020-01-21', 'DL', 2349, 'ATL', 'ATL', -5),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2020-01-21', 'DL', 2594, 'ATL', 'ATL', -3),
+('2020-01-21', 'DL', 2595, 'ATL', 'ATL', -5),
+('2020-01-21', 'DL', 2602, 'ATL', 'ATL', -2),
+('2020-01-21', 'DL', 2638, 'ATL', 'ATL', -6),
+('2020-01-21', 'DL', 2799, 'ATL', 'ATL', -5),
+('2020-01-21', 'DL', 2811, 'ATL', 'ATL', -7),
+('2020-01-21', 'DL', 2909, 'ATL', 'ATL', -11),
+('2020-01-21', 'DL', 2945, 'DTW', 'DTW', -7),
+('2021-01-21', 'DL', 317, 'LAX', 'LAX', -7),
+('2021-01-21', 'DL', 416, 'ATL', 'ATL', -5),
+('2021-01-21', 'DL', 432, 'ATL', 'ATL', -4),
+('2021-01-21', 'DL', 440, 'ATL', 'ATL', -7),
+('2021-01-21', 'DL', 457, 'ATL', 'ATL', -4),
+('2021-01-21', 'DL', 476, 'ATL', 'ATL', -6),
+('2021-01-21', 'DL', 777, 'SLC', 'SLC', -6),
+('2021-01-21', 'DL', 1450, 'MSP', 'MSP', -10),
+('2021-01-21', 'DL', 1559, 'DTW', 'DTW', -7),
+('2021-01-21', 'DL', 2006, 'DTW', 'DTW', -6),
+('2021-01-21', 'DL', 2226, 'ATL', 'ATL', -10),
+('2021-01-21', 'DL', 2276, 'DTW', 'DTW', -10),
+('2021-01-21', 'DL', 8785, 'ATL', 'ATL', -10),
+('2021-01-21', 'DL', 8786, 'MSP', 'MSP', -3),
+('2022-01-21', 'DL', 306, 'ATL', 'ATL', -4),
+('2022-01-21', 'DL', 307, 'ATL', 'ATL', -7),
+('2022-01-21', 'DL', 342, 'LAX', 'LAX', -1),
+('2022-01-21', 'DL', 361, 'ATL', 'ATL', -3),
+('2022-01-21', 'DL', 395, 'ATL', 'ATL', -6),
+('2022-01-21', 'DL', 418, 'ATL', 'ATL', -5),
+('2022-01-21', 'DL', 457, 'ATL', 'ATL', 0),
+('2022-01-21', 'DL', 459, 'ATL', 'ATL', -1),
+('2022-01-21', 'DL', 464, 'ATL', 'ATL', -4),
+('2022-01-21', 'DL', 528, 'ATL', 'ATL', -3),
+('2022-01-21', 'DL', 538, 'ATL', 'ATL', -10),
+('2022-01-21', 'DL', 760, 'SLC', 'SLC', 6),
+('2022-01-21', 'DL', 1343, 'MSP', 'MSP', 9),
+('2022-01-21', 'DL', 1530, 'DTW', 'DTW', -2),
+('2022-01-21', 'DL', 1637, 'DTW', 'DTW', -12),
+('2022-01-21', 'DL', 1740, 'MSP', 'MSP', -3),
+('2022-01-21', 'DL', 2244, 'MSP', 'MSP', -5),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2022-01-21', 'DL', 2623, 'DTW', 'DTW', -5),
+('2022-01-21', 'DL', 2660, 'ATL', 'ATL', -1),
+('2022-01-21', 'DL', 2675, 'MSP', 'MSP', -3),
+('2022-01-21', 'DL', 2885, 'DTW', 'DTW', 228),
+('2022-01-21', 'DL', 2995, 'DTW', 'DTW', -7),
+('2023-01-21', 'DL', 316, 'ATL', 'ATL', -1),
+('2023-01-21', 'DL', 380, 'LAX', 'LAX', -2),
+('2023-01-21', 'DL', 410, 'ATL', 'ATL', 341),
+('2023-01-21', 'DL', 455, 'ATL', 'ATL', -2),
+('2023-01-21', 'DL', 513, 'ATL', 'ATL', -8),
+('2023-01-21', 'DL', 665, 'ATL', 'ATL', -6),
+('2023-01-21', 'DL', 683, 'SLC', 'SLC', -4),
+('2023-01-21', 'DL', 759, 'ATL', 'ATL', -5),
+('2023-01-21', 'DL', 967, 'ATL', 'ATL', 284),
+('2023-01-21', 'DL', 972, 'ATL', 'ATL', -3),
+('2023-01-21', 'DL', 1237, 'MSP', 'MSP', -5),
+('2023-01-21', 'DL', 1442, 'DTW', 'DTW', -6),
+('2023-01-21', 'DL', 2309, 'MSP', 'MSP', -6),
+('2023-01-21', 'DL', 2436, 'MSP', 'MSP', -6),
+('2023-01-21', 'DL', 2442, 'MSP', 'MSP', 55),
+('2023-01-21', 'DL', 2476, 'DTW', 'DTW', -3),
+('2023-01-21', 'DL', 2560, 'MSP', 'MSP', 45),
+('2023-01-21', 'DL', 2832, 'ATL', 'ATL', -8),
+('2023-01-21', 'DL', 2847, 'DTW', 'DTW', -7),
+('2023-01-21', 'DL', 2849, 'DTW', 'DTW', -7),
+('2020-01-22', 'DL', 431, 'DTW', 'DTW', -6),
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2020-01-23', 'DL', 832, 'SLC', 'SLC', -3),
+('2020-01-23', 'DL', 839, 'ATL', 'ATL', -7),
+('2020-01-23', 'DL', 952, 'MSP', 'MSP', -1),
+('2020-01-23', 'DL', 1139, 'ATL', 'ATL', -1),
+('2020-01-23', 'DL', 1167, 'DTW', 'DTW', -2),
+('2020-01-23', 'DL', 1376, 'MSP', 'MSP', -11),
+('2020-01-23', 'DL', 1421, 'DTW', 'DTW', -7),
+('2020-01-23', 'DL', 1464, 'MSP', 'MSP', 0),
+('2020-01-23', 'DL', 1515, 'MSP', 'MSP', -7),
+('2020-01-23', 'DL', 1631, 'LAX', 'LAX', 5),
+('2020-01-23', 'DL', 1764, 'MSP', 'MSP', -5),
+('2020-01-23', 'DL', 1790, 'DTW', 'DTW', 93),
+('2020-01-23', 'DL', 1960, 'DTW', 'DTW', -9),
+('2020-01-23', 'DL', 1963, 'ATL', 'ATL', -2),
+('2020-01-23', 'DL', 2086, 'JFK', 'JFK', -10),
+('2020-01-23', 'DL', 2238, 'ATL', 'ATL', -1),
+('2020-01-23', 'DL', 2267, 'DTW', 'DTW', 2),
+('2020-01-23', 'DL', 2349, 'ATL', 'ATL', -2),
+('2020-01-23', 'DL', 2409, 'MSP', 'MSP', -1),
+('2020-01-23', 'DL', 2594, 'ATL', 'ATL', 4),
+('2020-01-23', 'DL', 2595, 'ATL', 'ATL', -7),
+('2020-01-23', 'DL', 2602, 'ATL', 'ATL', 1),
+('2020-01-23', 'DL', 2638, 'ATL', 'ATL', 146),
+('2020-01-23', 'DL', 2799, 'ATL', 'ATL', -1),
+('2020-01-23', 'DL', 2811, 'ATL', 'ATL', 5),
+('2020-01-23', 'DL', 2909, 'ATL', 'ATL', 20),
+('2020-01-23', 'DL', 2945, 'DTW', 'DTW', -2),
+('2021-01-23', 'DL', 317, 'LAX', 'LAX', -6),
+('2021-01-23', 'DL', 416, 'ATL', 'ATL', -6),
+('2021-01-23', 'DL', 432, 'ATL', 'ATL', -5),
+('2021-01-23', 'DL', 440, 'ATL', 'ATL', -5);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2021-01-23', 'DL', 457, 'ATL', 'ATL', -7),
+('2021-01-23', 'DL', 464, 'ATL', 'ATL', -6),
+('2021-01-23', 'DL', 777, 'SLC', 'SLC', -6),
+('2021-01-23', 'DL', 1559, 'DTW', 'DTW', -8),
+('2021-01-23', 'DL', 2006, 'DTW', 'DTW', -5),
+('2021-01-23', 'DL', 2226, 'ATL', 'ATL', -7),
+('2022-01-23', 'DL', 306, 'ATL', 'ATL', -3),
+('2022-01-23', 'DL', 307, 'ATL', 'ATL', -2),
+('2022-01-23', 'DL', 342, 'LAX', 'LAX', -2),
+('2022-01-23', 'DL', 361, 'ATL', 'ATL', -6),
+('2022-01-23', 'DL', 395, 'ATL', 'ATL', -8),
+('2022-01-23', 'DL', 418, 'ATL', 'ATL', 17),
+('2022-01-23', 'DL', 459, 'ATL', 'ATL', -6),
+('2022-01-23', 'DL', 464, 'ATL', 'ATL', 1),
+('2022-01-23', 'DL', 528, 'ATL', 'ATL', 3),
+('2022-01-23', 'DL', 538, 'ATL', 'ATL', -6),
+('2022-01-23', 'DL', 760, 'SLC', 'SLC', -5),
+('2022-01-23', 'DL', 1343, 'MSP', 'MSP', -8),
+('2022-01-23', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-23', 'DL', 1637, 'DTW', 'DTW', -6),
+('2022-01-23', 'DL', 1740, 'MSP', 'MSP', 2),
+('2022-01-23', 'DL', 2244, 'MSP', 'MSP', 3),
+('2022-01-23', 'DL', 2289, 'MSP', 'MSP', -4),
+('2022-01-23', 'DL', 2623, 'DTW', 'DTW', 13),
+('2022-01-23', 'DL', 2660, 'ATL', 'ATL', -6),
+('2022-01-23', 'DL', 2675, 'MSP', 'MSP', 29),
+('2022-01-23', 'DL', 2885, 'DTW', 'DTW', -9),
+('2022-01-23', 'DL', 2995, 'DTW', 'DTW', 7),
+('2023-01-23', 'DL', 316, 'ATL', 'ATL', 16),
+('2023-01-23', 'DL', 380, 'LAX', 'LAX', -3),
+('2023-01-23', 'DL', 392, 'ATL', 'ATL', -5),
+('2023-01-23', 'DL', 410, 'ATL', 'ATL', 13),
+('2023-01-23', 'DL', 455, 'ATL', 'ATL', -3),
+('2023-01-23', 'DL', 513, 'ATL', 'ATL', 8),
+('2023-01-23', 'DL', 665, 'ATL', 'ATL', -2),
+('2023-01-23', 'DL', 683, 'SLC', 'SLC', 129),
+('2023-01-23', 'DL', 687, 'ATL', 'ATL', -13),
+('2023-01-23', 'DL', 759, 'ATL', 'ATL', -12),
+('2023-01-23', 'DL', 967, 'ATL', 'ATL', -5),
+('2023-01-23', 'DL', 972, 'ATL', 'ATL', 16);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2023-01-23', 'DL', 1237, 'MSP', 'MSP', 11),
+('2023-01-23', 'DL', 1442, 'DTW', 'DTW', -4),
+('2023-01-23', 'DL', 2309, 'MSP', 'MSP', -1),
+('2023-01-23', 'DL', 2436, 'MSP', 'MSP', -6),
+('2023-01-23', 'DL', 2442, 'MSP', 'MSP', -6),
+('2023-01-23', 'DL', 2476, 'DTW', 'DTW', -4),
+('2023-01-23', 'DL', 2560, 'MSP', 'MSP', -7),
+('2023-01-23', 'DL', 2676, 'DTW', 'DTW', -4),
+('2023-01-23', 'DL', 2832, 'ATL', 'ATL', 3),
+('2023-01-23', 'DL', 2847, 'DTW', 'DTW', -7),
+('2023-01-23', 'DL', 2849, 'DTW', 'DTW', -7),
+('2020-01-24', 'DL', 431, 'DTW', 'DTW', 0),
+('2020-01-24', 'DL', 832, 'SLC', 'SLC', -3),
+('2020-01-24', 'DL', 839, 'ATL', 'ATL', 1),
+('2020-01-24', 'DL', 952, 'MSP', 'MSP', 30),
+('2020-01-24', 'DL', 1139, 'ATL', 'ATL', 0),
+('2020-01-24', 'DL', 1167, 'DTW', 'DTW', 18),
+('2020-01-24', 'DL', 1376, 'MSP', 'MSP', -5),
+('2020-01-24', 'DL', 1421, 'DTW', 'DTW', -2),
+('2020-01-24', 'DL', 1464, 'MSP', 'MSP', 1),
+('2020-01-24', 'DL', 1515, 'MSP', 'MSP', -6),
+('2020-01-24', 'DL', 1631, 'LAX', 'LAX', 0),
+('2020-01-24', 'DL', 1764, 'MSP', 'MSP', 177),
+('2020-01-24', 'DL', 1790, 'DTW', 'DTW', 37),
+('2020-01-24', 'DL', 1960, 'DTW', 'DTW', -6),
+('2020-01-24', 'DL', 1963, 'ATL', 'ATL', 74),
+('2020-01-24', 'DL', 2086, 'JFK', 'JFK', -3),
+('2020-01-24', 'DL', 2238, 'ATL', 'ATL', 20),
+('2020-01-24', 'DL', 2267, 'DTW', 'DTW', -6),
+('2020-01-24', 'DL', 2349, 'ATL', 'ATL', 0);
+INSERT INTO flights (flight_date, airline, flight_number, departure_airport, arrival_airport, status) VALUES
+('2020-01-24', 'DL', 2409, 'MSP', 'MSP', 24),
+('2020-01-24', 'DL', 2594, 'ATL', 'ATL', -2),
+('2020-01-24', 'DL', 2595, 'ATL', 'ATL', -4),
+('2020-01-24', 'DL', 2602, 'ATL', 'ATL', -2),
+('2020-01-24', 'DL', 2638, 'ATL', 'ATL', -2),
+('2020-01-24', 'DL', 2799, 'ATL', 'ATL', 1),
+('2020-01-24', 'DL', 2811, 'ATL', 'ATL', 0),
+('2020-01-24', 'DL', 2909, 'ATL', 'ATL', 14),
+('2020-01-24', 'DL', 2945, 'DTW', 'DTW', 48),
+('2021-01-24', 'DL', 317, 'LAX', 'LAX', 0),
+('2021-01-24', 'DL', 416, 'ATL', 'ATL', -12),
+('2021-01-24', 'DL', 432, 'ATL', 'ATL', -4),
+('2021-01-24', 'DL', 440, 'ATL', 'ATL', -5),
+('2021-01-24', 'DL', 457, 'ATL', 'ATL', -7),
+('2021-01-24', 'DL', 464, 'ATL', 'ATL', -4),
+('2021-01-24', 'DL', 476, 'ATL', 'ATL', -5),
+('2021-01-24', 'DL', 777, 'SLC', 'SLC', -8),
+('2021-01-24', 'DL', 1559, 'DTW', 'DTW', -6),
+('2021-01-24', 'DL', 2006, 'DTW', 'DTW', -7),
+('2021-01-24', 'DL', 2226, 'ATL', 'ATL', -7),
+('2021-01-24', 'DL', 2276, 'DTW', 'DTW', -11),
+('2022-01-24', 'DL', 306, 'ATL', 'ATL', 4),
+('2022-01-24', 'DL', 307, 'ATL', 'ATL', -4),
+('2022-01-24', 'DL', 342, 'LAX', 'LAX', -2),
+('2022-01-24', 'DL', 361, 'ATL', 'ATL', -12),
+('2022-01-24', 'DL', 395, 'ATL', 'ATL', -4),
+('2022-01-24', 'DL', 418, 'ATL', 'ATL', -5),
+('2022-01-24', 'DL', 457, 'ATL', 'ATL', -1),
+('2022-01-24', 'DL', 459, 'ATL', 'ATL', -9),
+('2022-01-24', 'DL', 464, 'ATL', 'ATL', 5),
+('2022-01-24', 'DL', 528, 'ATL', 'ATL', -7),
+('2022-01-24', 'DL', 538, 'ATL', 'ATL', -5),
+('2022-01-24', 'DL', 760, 'SLC', 'SLC', -1),
+('2022-01-24', 'DL', 1343, 'MSP', 'MSP', -3),
+('2022-01-24', 'DL', 1530, 'DTW', 'DTW', -7),
+('2022-01-24', 'DL', 1637, 'DTW', 'DTW', -22),
+('2022-01-24', 'DL', 1740, 'MSP', 'MSP', -6),
+('2022-01-24', 'DL', 2244, 'MSP', 'MSP', -4),
+('2022-01-24', 'DL', 2289, 'MSP', 'MSP', 2),
+('2022-01-24', 'DL', 2623, 'DTW', 'DTW', 9);
